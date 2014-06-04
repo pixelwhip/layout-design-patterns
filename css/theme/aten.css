@@ -820,6 +820,9 @@ body {
     display: inline-block;
     margin-left: 1em;
     margin-right: 1em; }
+.reveal section .class-name {
+  font-size: 1em;
+  text-align: center !important; }
 .reveal section .book-wrapper {
   margin-right: auto;
   margin-left: auto;
