@@ -1,0 +1,137 @@
+
+.layout-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l--3-column {
+  > .l-primary   { @include span(4 at 1); }
+  > .l-secondary { @include span(4 at 5); }
+  > .l-tertiary  { @include span(4 at 9); }
+}
+
+.l--sidebars-after {
+  > .l-primary   { @include span(6 at 1); }
+  > .l-secondary { @include span(3 at 7); }
+  > .l-tertiary  { @include span(3 at 10); }
+}
+
+.l--sidebars-before {
+  > .l-primary   { @include span(6 at 7); }
+  > .l-secondary { @include span(3 at 1); }
+  > .l-tertiary  { @include span(3 at 4); }
+}
+
+.l--triptych {
+  > .l-primary   { @include span(6 at 4); }
+  > .l-secondary { @include span(3 at 1); }
+  > .l-tertiary  { @include span(3 at 10); }
+}
+
+#naming--layout {
+  @include container;
+
+  > .l-primary,
+  > .l-secondary,
+  > .l-tertiary  { width: 100%;margin-right: -100%; }
+}
+
+#naming--3-column.visible ~ #naming--layout {
+  @extend .l--3-column;
+
+  &:before { content: ".l--3-column"; }
+}
+
+#naming--sidebars-after.visible ~ #naming--layout {
+  @extend .l--sidebars-after;
+
+  &:before { content: ".l--sidebars-after"; }
+}
+
+#naming--sidebars-before.visible ~ #naming--layout {
+  @extend .l--sidebars-before;
+
+  &:before { content: ".l--sidebars-before"; }
+}
+
+#naming--triptych.visible ~ #naming--layout {
+  @extend .l--triptych;
+
+  &:before { content: ".l--triptych"; }
+}
+
+.greybox {
+  opacity: .8;
+
+  &,
+  & p {
+    font-family: 'BLOKK', sans-serif !important;
+    font-size: 12px;
+    line-height: 1.2em;
+    text-align: left;
+    word-spacing: -1.25em;
+    color: $white;
+  }
+}
+
+.greybox-container {
+  padding: 1em;
+  outline: 1px solid rgba($gray, .3);
+  background-color: rgba($white, .4);
+
+  &:hover {
+    outline: 1px solid rgba($black, 1);
+  }
+
+  &[data-label]:before {
+    content: attr(data-label);
+    font-family: monospace;
+    display: block;
+    margin: .5em auto 1em;
+    height: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: $gray-dark;
+  }
+}
+
+.greybox-region {
+  background-color: rgba($black, .3);
+  min-height: 8em;
+  margin-bottom: 1em;
+  outline: 1px solid rgba($black, .5);
+  transition: all 1s ease;
+
+  &:nth-child(1) { background-color: rgba($blue, .3); }
+  &:nth-child(2) { background-color: rgba($red, .3); }
+  &:nth-child(3) { background-color: rgba($green, .3); }
+
+  &:hover {
+    background-color: rgba($white, .8);
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &[data-label] {
+    position: relative;
+  }
+
+  &:before {
+    content: attr(data-label);
+    font-family: monospace;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+    color: $gray-dark;
+  }
+}

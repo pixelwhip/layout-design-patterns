@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="525px" height="700px" viewBox="217.5 0 525 700" enable-background="new 217.5 0 525 700" xml:space="preserve">
+<g id="Background" opacity="0.4">
+	<rect x="217.5" fill="#FFFFFF" width="525" height="700"/>
+</g>
+<g id="Layout">
+	<g id="Regions">
+		<g id="header_1_" opacity="0.6">
+			<rect x="252.5" y="35" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="455" height="87.5"/>
+		</g>
+		<g id="sidebar" opacity="0.6">
+			<rect x="252.5" y="157.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="507.5"/>
+		</g>
+		<g id="main" opacity="0.6">
+			<rect x="445" y="157.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="262.5" height="507.5"/>
+		</g>
+	</g>
+</g>
+<g id="Content">
+	<g id="views" opacity="0.6">
+		<g id="row_1_">
+			<rect x="252.5" y="525" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="52.5" height="52.5"/>
+			<rect x="322.5" y="525" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+			<rect x="322.5" y="560" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+		</g>
+		<g id="row_2_">
+			<rect x="252.5" y="612.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="52.5" height="52.5"/>
+			<rect x="322.5" y="612.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+			<rect x="322.5" y="647.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+		</g>
+		<g id="row">
+			<rect x="252.5" y="437.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="52.5" height="52.5"/>
+			<rect x="322.5" y="437.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+			<rect x="322.5" y="472.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="87.5" height="17.5"/>
+		</g>
+	</g>
+	<g id="blocks" opacity="0.6">
+		
+			<rect id="block_1_" x="252.5" y="157.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+		
+			<rect id="block" x="252.5" y="297.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	</g>
+	<g id="node" opacity="0.6">
+		
+			<rect id="node-footer" x="445" y="647.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="262.5" height="17.5"/>
+		
+			<rect id="node-figure" x="602.5" y="227.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="105" height="105"/>
+		<polygon id="node-body" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" points="585,227.5 585,350 
+			707.5,350 707.5,630 445,630 445,367.5 445,350 445,227.5 		"/>
+		
+			<rect id="node-header" x="445" y="157.5" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="262.5" height="52.5"/>
+	</g>
+	<g id="header_content" opacity="0.6">
+		
+			<rect id="main-menu" x="252.5" y="105" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="455" height="17.5"/>
+		
+			<rect id="logo" x="252.5" y="35" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="113.8" height="53"/>
+		
+			<rect id="search" x="605.5" y="70" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="102" height="17.5"/>
+		
+			<rect id="utility" x="605.5" y="35" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="102" height="17.5"/>
+	</g>
+</g>
+</svg>

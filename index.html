@@ -1,0 +1,1039 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Layout Design Patterns - Presented by John Ferris</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="John Ferris">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link href="webfonts/ss-social.css" rel="stylesheet" />
+    <link href="webfonts/ss-standard.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section id="title-slide" data-state="state--dcon" data-background="img/dcon-title.jpg" >
+          <h1 class="dcon-title">Layout Design Patterns</h1>
+          <p>John Ferris <a href="https://twitter.com/pixel_whip" class="link--twitter"><i class="ss-twitter ss-social"></i> @pixel_whip</a></p>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section id="about" data-state="state--dark">
+          <img src="img/aten-logo.svg" alt="Aten Logo" class="aten-logo">
+          <aside class="notes">
+            ##  I work at Aten
+
+            I'm the Lead Front-end Developer at Aten Design Group in Denver, CO.
+          </aside>
+        </section>
+
+        <section  data-state="state--dark" data-background="img/bg-clients.png">
+          <aside class="notes">
+            ## We work with organizations doing good work all over the world
+
+            National and international non-profits and NGO's.
+          </aside>
+        </section>
+
+        <section  data-state="state--dark">
+          <img src="img/ss-ncwit-home.jpg" alt="" class="work-sample">
+          <img src="img/ss-cpr-home.jpg" alt="" class="work-sample">
+          <img src="img/ss-wri-home.jpg" alt="" class="work-sample">
+
+          <aside class="notes">
+            ## These organization haves a lot of content
+
+            Our clients typically have a lot of content.  Articles, Projects, Blog posts. Reports with related charts, graphs and media.  The content is dynamic and the sites themselves are responsive.
+
+            ## Their sites have complex layouts
+
+          </aside>
+        </section>
+
+        <section  data-state="state--dark">
+          <img src="img/layout-sketch.png" alt="" />
+          <aside class="notes">
+            ## I spend a good part of my job solving layout problems
+
+            So a large part of my daily task are comprised of solving complex layout problems. ...trying to manipulate markup with CSS in order to present information in a readable way.
+          </aside>
+        </section>
+
+        <section  data-state="state--dark">
+          <img src="img/ss-cpr-home.jpg" alt="" />
+          <aside class="notes">
+            ## Complex problems can be broken down into smaller simpler problems
+          </aside>
+        </section>
+        <section  data-state="state--dark">
+          <img src="img/ss-cpr-layout-1.jpg" alt="" />
+        </section>
+        <section  data-state="state--dark">
+          <img src="img/ss-cpr-layout-2.jpg" alt="" />
+        </section>
+        <section  data-state="state--dark">
+          <img src="img/ss-cpr-layout-3.jpg" alt="" />
+        </section>
+
+        <section  data-state="state--blue">
+          <h1>Design Patterns</h1>
+
+          <aside class="notes">
+            ## These are Design Patterns
+          </aside>
+        </section>
+        <section  data-state="state--blue">
+         <p class="biggie">Common <strong>solutions</strong> <br/>to reacurring <strong>problems</strong> <br/>within a given <strong>context</strong></p>
+
+          <aside class="notes">
+            "Common solutions to reacurring problems within a given context"
+          </aside>
+        </section>
+
+        <section  data-state="state--overlay" data-background="img/architecture-bw.jpg">
+          <div class="fragment profile">
+            <header class="profile-header">
+              <h1 class="profile-name">Christopher Alexander</h1>
+              <p class="profile-date">1936 - </p>
+            </header>
+            <img class="profile-image" src="img/christopher-alexander.png" alt="Christopher Alexander" >
+          </div>
+          <aside class="notes">
+            ## The concept comes from architecture
+            You may have heard of the term used in The concept didn't originate from graphic design or computer science. It actully comes from Architecture.
+
+            ## Christopher Alexander was an architect and professor at UC Berkley
+
+            In 1979 in architect named Christopher Alexandar, put off by the utilitarian sterile nature of contemporary building of the time came up with the idea that some of the most pleasant or as he calls them, "alive" buildings were those not created or designed by architects, but those designed and built by the inhabitants themselves using rules of thumb or design patterns learned through experience.
+          </aside>
+        </section>
+
+        <section  data-state="state--blue" data-background="img/christopher-alexander-books.jpg">
+          <aside class="notes">
+            ## In 1979 he published "The Timeless Way of Building"
+
+            Alexandar along with a number of his colleagues at the time, published a series of books that explained the concept of design patterns. "The Timeless Way of Building" and "A Pattern Language"
+
+            ## It describes an architecture theory in which it doesn't take an architect to design a building
+            ## That anyone can design a building by applying the appropriate design patterns to their context
+
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"> <img class="screenshot" src="img/cover-design-patterns.jpg" alt=""></a>
+
+          <aside class="notes">
+            ## The concept was applied to Computer Science when Design Patterns: Elements of Reusable Object-Oriented Software was published in 1994 by the Gang of Four
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <a href="http://ui-patterns.com/"> <img class="screenshot" src="img/ss-uipatterns-small.png" alt="uipatterns.com" /></a>
+          <aside class="notes">
+            ## It's been applied etensively to User Interface design
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <a href="http://www.lukew.com/ff/entry.asp?1514"><img class="screenshot" src="img/ss-lukew-small.png" alt="Multi-device Layout Patterns" /></a>
+
+          <aside class="notes">
+            and in blog posts by Luke W about Multi-device Layouts
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <a href="http://bradfrostweb.com/blog/web/responsive-nav-patterns/"><img class="screenshot" src="img/ss-brad-frost-small.png" alt="Responsive Layout Patterns" /></a>
+
+          <aside class="notes">
+            and Brad Frost's mobile navigation patterns.
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <h1>Layout</h1>
+
+          <aside class="notes">
+            ## Today we're going to look at few patterns we can pull from to solve more complex layouts.
+          </aside>
+        </section>
+
+        <section  data-state="state--blue" class="slide-canvas">
+          <div id="layouts-example" class=""></div>
+          <span class="fragment" data-fragment-on-show="layoutsShowContent" data-fragment-on-hide="layoutsHideContent"></span>
+
+          <aside class="notes">
+            ## Let's define a layout
+          <ul>
+            <li >Layouts are the structure of a screen</li>
+            <li >Layouts are made of containers in which content is placed</li>
+            <li >Layouts are recursive</li>
+            <li >Layouts are defined in markup (relationships and hiearchy are important)</li>
+            <li >and manipulated in CSS</li>
+            <li >using a subeset of properties</li>
+          </ul>
+          </aside>
+        </section>
+
+        <section  data-state="state--blue">
+          <h2>CSS Layout Properties</h2>
+          <div class="properties-wrapper">
+            <ul class="properties">
+              <li>display</li>
+              <li>flex</li>
+              <li>float</li>
+              <li>clear</li>
+              <li>overflow</li>
+            </ul>
+            <ul class="properties">
+              <li>position</li>
+              <li>top</li>
+              <li>right</li>
+              <li>left</li>
+              <li>bottom</li>
+              <li>z-index</li>
+            </ul>
+            <ul class="properties">
+              <li>box-sizing</li>
+              <li>margin</li>
+              <li>border-width</li>
+              <li>padding</li>
+              <li>width</li>
+              <li>height</li>
+            </ul>
+          </div>
+
+          <aside class="notes">
+            ## Let's define a layout
+          </aside>
+        </section>
+
+
+        <section  data-state="state--default">
+          <h1>Patterns</h1>
+
+          <aside class="notes">
+            This defines the broad context in which our layout pattern language exists. We'll going to look at patterns for manipulating these properties and structuring markup to solve our layout problems.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Constrained Elements</h1>
+          <p class="pattern-description">Give an element a defined width to prevent it from expanding too wide.</p>
+          <aside class="notes">
+            We'll start super simple.
+
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <span id="constrained--before"></span>
+          <span id="constrained--after" class="fragment"></span>
+          <div class="article-wrapper">
+            <article class="article">
+            <p class="article-paragraph">The essence of this process is very fundamental indeed. We may understand it best by comparing the work of a fifty-year-old carpenter with the work of a novice. The experienced carpenter keeps going. He doesn’t have to keep stopping, because every action he performs, is calculated in such a way that some later action can put it right to the extent that it is imperfect now. What is critical here, is the sequence of events. The carpenter never takes a step which he cannot correct later; so he can keep working, confidently, steadily.</p>
+
+            <p class="article-paragraph">The novice by comparison, spends a great deal of his time trying to figure out what to do. He does this essentially because he knows that an action he takes now may cause unretractable problems a little further down the line; and if he is not careful, he will find himself with a joint that requires the shortening of some crucial member – at a stage when it is too late to shorten that member. The fear of these kinds of mistakes forces him to spend hours trying to figure ahead: and it forces him to work as far as possible to exact drawings because they will guarantee that he avoids these kinds of mistakes.</p>
+            </article>
+          </div>
+
+          <aside class="notes">
+            We'll start super simple.
+
+            This is as basic as it gets. And that's the beauty of it.
+
+            This one pattern, can be applied to a variety of contexts
+
+            Making sure text is readable by maintaining a comfortable measure.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <a href="http://createupstate.com/"> <img class="screenshot" src="img/ss-cu-home.jpg" alt=""></a>
+          <a href="http://createupstate.com/"> <img class="screenshot" src="img/ss-cu-home-constrained.jpg" alt=""></a>
+
+          <aside class="notes">
+            And making sure elements stay aligned on large screen sizes.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Rows of Relevant Content</h1>
+          <p class="pattern-description">Divide the screen into rows of relavant content such that the heiarchy and content relationships are preserved when displayed in a linear format.</p>
+          <aside class="notes">
+            "Divide the screen into rows of relavant content such that the heiarchy and content relationships are preserved when displayed in a linear format."
+
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <a href="http://createupstate.com/"> <img class="screenshot spaced" src="img/ss-cu-home-rows.jpg" alt=""></a>
+          <a href="http://createupstate.com/"> <img class="screenshot spaced" src="img/ss-cu-mobile.jpg" alt=""></a>
+
+          <aside class="notes">
+            Let's look back at that last example
+
+            Here, we're using this pattern to divide the page into rows allows us to go full bleed with the background.
+
+            At first glance this looks like a typical single sidebar desktop layout
+
+            If that were the case, the information heiarchy would be thrown off on mobile layouts
+
+            Instead, we break the layout down into rows of relevant content so the heiarchy can be preserved at all screen sizes.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <img class="" src="img/cpr-rows-of-content-1.png" alt="" />
+
+          <aside class="notes">
+            Instead, we break the layout down into rows of relevant content so the heiarchy can be preserved at all screen sizes.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <img class="" src="img/cpr-rows-of-content-2.png" alt="" />
+
+          <aside class="notes">
+            Instead, we break the layout down into rows of relevant content so the heiarchy can be preserved at all screen sizes.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Layout Modifiers</h1>
+          <p class="pattern-description">Follow a naming convention for classes intended to modify layout.</p>
+          <aside class="notes">
+            The position of an element on the screen is affected just as much by the elements around it as its own CSS layout properties.
+          </aside>
+        </section>
+
+        <section data-state="state--default">
+          <div class="layout-wrapper">
+            <span id="naming--3-column" class="fragment"></span>
+            <span id="naming--sidebars-after" class="fragment"></span>
+            <span id="naming--sidebars-before" class="fragment"></span>
+            <span id="naming--triptych" class="fragment"></span>
+            <div id="naming--layout" class="greybox greybox-container clearfix" data-label="Container">
+              <div class="l-primary greybox-region" data-label=".l-primary"></div>
+              <div class="l-secondary greybox-region" data-label=".l-secondary"></div>
+              <div class="l-tertiary greybox-region" data-label=".l-tertiary"></div>
+            </div>
+          </div>
+          <pre>
+            <code class="xml">
+              <div class="l--[modifier]">
+                <div class="l-secondary">...</div>
+                <div class="l-primary">...</div>
+                <div class="l-tertiary">...</div>
+              </div>
+            </code>
+          </pre>
+          <aside class="notes">
+
+            Here is the markup for a 3 item structure.  We have a container and 3 items
+
+            We've given each a class that represents their position
+
+            Here is a generic example of 3 elements.
+            .l-primary, .l-secondary, .l-tertiary.
+
+            And applied a modifier class to the container which defines the layout itself.
+
+            By giving the parent element a class of .l--3-columns, .l--tryptych, .l--sidebars-after.
+
+            This is using a naming convention that is semantic to the layout itself and can be applied to many different elements.
+
+            This is a naming convention I've adopted for creating generic reusable layouts.  You can use your own. You can use nth-child selectors or whatever.  It's your world. The concept is the same.
+
+            By designing our layouts around these modifier classes, we make our layouts interchangable and reusable.
+          </aside>
+        </section>
+
+        <section data-state="state--default">
+          <div class="article--teaser">
+            <figure class="article-image"></figure>
+            <header class="article-header"></header>
+            <div class="article-content"></div>
+          </div>
+          <pre>
+            <code class="xml">
+                <article class="article article--teaser">
+                  <figure class="article-image">...</figure>
+                  <header class="article-header">...</header>
+                  <div class="article-content">...</div>
+                </article>
+            </code>
+          </pre>
+          <aside class="notes">
+            Here is the same concept applied to an article node in which we use the view mode as our layout modifier
+
+            Here is a variation on that applies to a design component. In this case an article node using the teaser view mode.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Gutter Pull</h1>
+          <p class="pattern-description">Position an item by pulling <br/>it into the gutter established <br/>by its parent container.</p>
+          <aside class="notes">
+            The position of an element on the screen is affected just as much by the elements around it as its own CSS layout properties.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <span id="gutter-width" class="fragment"></span>
+          <span id="gutter-pulled" class="fragment"></span>
+          <div class="article-wrapper">
+            <article class="article">
+            <p class="article-paragraph">The essence of this process is very fundamental indeed. We may understand it best by comparing the work of a fifty-year-old carpenter with the work of a novice. The experienced carpenter keeps going. He doesn’t have to keep stopping, because every action he performs, is calculated in such a way that some later action can put it right to the extent that it is imperfect now. What is critical here, is the sequence of events. The carpenter never takes a step which he cannot correct later; so he can keep working, confidently, steadily.</p>
+              <blockquote class="article-pullquote quote">
+                Drawings help people to work out intricate relationships between parts.
+                <address class="quote-author">Christopher Alexander</address>
+              </blockquote>
+            <p class="article-paragraph">The novice by comparison, spends a great deal of his time trying to figure out what to do. He does this essentially because he knows that an action he takes now may cause unretractable problems a little further down the line; and if he is not careful, he will find himself with a joint that requires the shortening of some crucial member – at a stage when it is too late to shorten that member. The fear of these kinds of mistakes forces him to spend hours trying to figure ahead: and it forces him to work as far as possible to exact drawings because they will guarantee that he avoids these kinds of mistakes.</p>
+            <p class="article-paragraph">The difference between the novice and the master is simply that the novice has not learnt, yet, how to do things in such a way that he can afford to make small mistakes. The master knows that the sequence of his actions will always allow him to cover his mistakes a little further down the line. It is this simple but essential knowledge which gives the work of a master carpenter its wonderful, smooth, relaxed, and almost unconcerned simplicity.</p>
+
+            </article>
+          </div>
+
+          <aside class="notes">
+            Let's look again at our article example
+
+            We have a series of elements but we want to pull just the thumbnail into the gutter and let the rest float around
+
+            We first add padding to create our gutter
+
+            Then float our item, give it a width, and pull it into the gutter
+
+            This works with a fluid width item
+
+            and also fixed width items
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <span id="book-padding" class="fragment"></span>
+          <span id="book-width" class="fragment"></span>
+          <span id="book-pulled" class="fragment"></span>
+          <span id="book-fluid" class="fragment"></span>
+          <div class="book-wrapper">
+            <article class="book book--teaser">
+              <figure class="book-cover"><img class="book-image" src="img/cover-pattern-language.jpg" alt=""></figure>
+              <h3 class="book-title">A Pattern Language</h3>
+              <address class="book-authors">by Christopher Alexander, Sara Ishikawa, Murray Silverstein and Max Jacobson (1977)</address>
+              <p class="book-summary">At the core of these books is the idea that people should design for themselves their own houses, streets, and communities. This idea may be radical (it implies a radical transformation of the architectural profession) but it comes simply from the observation that most of the wonderful places of the world were not made by architects but by the people.</p>
+            </article>
+          </div>
+          <pre>
+            <code class="xml">
+              <article class="book book--teaser">
+                <figure class="book-cover">...</figure>
+                <h3 class="book-title">...</h3>
+                <address class="book-authors">...</address>
+                <p class="book-summary">...</p>
+              </article>
+            </code>
+          </pre>
+
+          <aside class="notes">
+            Let's look again at our article example
+
+            We have a series of elements but we want to pull just the thumbnail into the gutter and let the rest float around
+
+            We first add padding to create our gutter
+
+            Then float our item, give it a width, and pull it into the gutter
+
+            This works with a fluid width item
+
+            and also fixed width items
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Margin Overflow</h1>
+          <p class="pattern-description">Allow an element to overflow its container by applying negative margins to both left and rights sides.</p>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <span id="block-overflow" class="fragment"></span>
+          <div class="block-wrapper">
+            <div class="block">
+              <h2 class="block-title">Layout Design Patterns</h2>
+              <div class="block-content">
+                <p class="block-paragraph">Layout Design patterns are recurring solutions that solve common layout design problems.</p>
+              </div>
+            </div>
+          </div>
+          <pre>
+            <code class="xml">
+              <div class="block">
+                <h2 class="block-title">...</h2>
+                <div class="block-content">...</div>
+              </div>
+            </code>
+          </pre>
+          <aside class="notes">
+            Take this block title for example
+
+            We can exploit the fact that negative margins on an element without a defined width, will increase its implicit width.
+
+            Now we have a fancy block title.
+          </aside>
+        </section>
+
+        <section data-state="state--default">
+          <div class="layout-wrapper">
+            <span id="overflow-3-column--full" class="fragment"></span>
+
+            <div id="overflow--layout" class="grid--3-column clearfix">
+              <div class="grid-item"> <div class="greybox-region">Everyone is aware that most of the built environment today lacks a natural order, an order which presents itself very strongly in places that were built centuries ago.</div> </div>
+              <div class="grid-item"> <div class="greybox-region">In short, no pattern is an isolated entity. Each pattern can exist in the world only to the extent that is supported by other patterns: the larger patterns in which it is embedded, the patterns of the same size that surround it, and the smaller patterns which are embedded in it.</div> </div>
+              <div class="grid-item"> <div class="greybox-region">The more living patterns there are in a place - a room, a building, or a town - the more it comes to life as an entirety, the more it glows, the more it has that self-maintaining fire which is the quality without a name.</div> </div>
+            </div>
+          </div>
+          <pre>
+            <code class="xml">
+              <div class="grid--3-column">
+                <div class="grid-item">...</div>
+                <div class="grid-item">...</div>
+                <div class="grid-item">...</div>
+              </div>
+            </code>
+          </pre>
+          <aside class="notes">
+            We use this same pattern to compensate for the outer padding in a grid layout.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Intrinsic Ratios</h1>
+          <p class="pattern-description">When the aspect ratio of an element is known, but the target size is not, use padding and absolute positioning to preserve the aspect ratio of an element.</p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <span id="ratio-incorrect" class="fragment"></span>
+          <span id="ratio-padding" class="fragment"></span>
+          <span id="ratio-position" class="fragment"></span>
+          <span id="ratio-correct" class="fragment"></span>
+          <span id="ratio-correct-2" class="fragment"></span>
+          <div class="ratio-wrapper">
+            <div id="ratio--layout" class="video-container">
+              <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/OFzXaFbxDcM?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <aside class="notes">
+            This is most often used when dealing with iframes or embedded videos.  max-width: 100% and height of auto work because the browser can determine the intrinsic ratio of an img from the file itself.
+
+            .video-container
+              > .video
+
+            Vertical padding defined as a percentage, is actually a percentage of the width of the element, not the height as you might expect.  Taking advantage of this, we can set the top padding on the container and absolutely postion the inner element as 100% x 100% and viola we have responsive video that respects the intended aspect ratio.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Grid System</h1>
+          <p class="pattern-description">Divide the screen into a series of vertical columns to facilitate the organization and alignment of components.</p>
+
+          <aside class="notes">
+            A grid system helps you create visual harmony and order on a screen by keeping elements aligned on the page.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <a href="http://www.imamuseum.org/blog/2010/02/16/ima-on-the-grid/"><img src="img/ss-grid-system-1.jpg" alt="" class="cover" /></a>
+          <a href="http://www.imamuseum.org/blog/2010/02/16/ima-on-the-grid/"><img src="img/ss-grid-system-2.jpg" alt="" class="cover" /></a>
+
+          <aside class="notes">
+            Here we have a design using a sixteen column grid.
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <a href="http://www.amazon.com/Ordering-Disorder-Principles-Design-Voices/dp/0321703537"><img src="img/cover-ordering-disorder.jpeg" alt="" class="cover" /></a>
+          <a href="http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web"><img src="img/cover-designing-for-the-web.png" alt="" class="cover" /></a>
+
+
+
+          <aside class="notes">
+            I'm not going to dwell on why you should use a grid system.  If you need convincing, I suggest reading Ordering Disorder by Khoi Vin or Designing for the Web by Mark Boulton.
+
+            I'm much more interested in patterns for actually implementing grids on the web.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Class-based Grid System</h1>
+          <p class="pattern-description">Align elements to the grid <br/>by applying a system of <br/>predefined classes to markup.</p>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--defualt">
+          <a href="http://foundation.zurb.com/docs/components/grid.html"><img src="img/ss-class-based-grid.png" alt="Foundation grid system" class="screenshot"></a>
+          <aside class="notes">
+            A class based grid system is what you might recognize from grid systems like 960gs and or Bootstrap.
+
+            These provide classes like span-3 or span-6 that you apply to elements.
+
+            These are great for creating quick layouts and especially suited for prototyping.
+
+            Works well when grid classes can be applied with ease to the markup.
+
+            Can be tricky to implement in Drupal depending on which elements you want to apply your grid classes to.
+          </aside>
+        </section>
+
+        <section data-state="state--defualt">
+          <pre>
+            <code class="xml">
+  <!-- Class-based grid system -->
+  <div class="row">
+    <div class="small-2 large-4 columns">...</div>
+    <div class="small-4 large-4 columns">...</div>
+    <div class="small-6 large-4 columns">...</div>
+  </div>
+
+</code>
+</pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Semantic Grid System</h1>
+
+          <p class="pattern-description">Align elements to the grid <br/>by applying layout properties <br/>to selectors using a grid framework.</p>
+
+          <aside class="notes">
+            The semantic grid system pattern allows you to abstract the calculations involved in aligning elements to the grid by using a preprocessor.
+          </aside>
+        </section>
+
+        <section data-state="state--defualt">
+          <pre>
+            <code class="scss">// Singularity - http://singularity.gs/
+.l--sidebar-after {
+  > .l-primary   { @include grid-span(8, 1, 12); }
+  > .l-secondary { @include grid-span(4, 9, 12); }
+}</code>
+          </pre>
+          <pre>
+<code class="scss">// Susy - http://susy.oddbird.net/
+.l--sidebar-after {
+  > .l-primary   { @include span(8 at 1 of 12); }
+  > .l-secondary { @include span(4 at 9 of 12); }
+}</code>
+          </pre>
+              <pre>
+<code class="scss">// Zen Grids - http://zengrids.com/
+.l--sidebar-after {
+  > .l-primary   { @include zen-grid-item(8, 1, $column-count: 12); }
+  > .l-secondary { @include zen-grid-item(4, 9, $column-count: 12); }
+}</code>
+          </pre>
+          <aside class="notes">
+            This allows more flexibility.  You can apply grid math to padding, margins, widths or even things like text-indent.
+
+            It allows you to change the grid as needed. And apply properties to any selector.
+
+            Most offer direct access to the grid math functions so you can apply grid dimensions to any property manually, such as text-indent.
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Guttered Grid</h1>
+          <p class="pattern-description">For each grid unit in the grid system, include a gutter to help space content.</p>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <img src="img/ss-guttered-grid.png" alt="960 grid system" class="screenshot"/>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Gutterless Grid</h1>
+          <p class="pattern-description">Exclude gutters from the grid unit, using full columns as gutters.</p>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <img src="img/ss-gutterless-grid.png" alt="" class="screenshot" />
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Symmetric Grid</h1>
+          <p class="pattern-description">Construct the grid from equal width grid units.</p>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+
+        <section data-state="state--example">
+          <img src="img/ss-gutterless-grid.png" alt="" class="screenshot" />
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Asymmetric Grid</h1>
+          <p class="pattern-description">Construct the grid from varied width grid units based on the design.</p>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--example">
+          <a href="https://markboulton.co.uk/journal/a-griddy-sneaky-peek"><img src="img/assymetric-grid.png" alt="" class="screenshot" /></a>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Float Layout</h1>
+          <p class="pattern-description">Create columns by floating a series of elements with defined widths.</p>
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+
+        <section data-state="state--default">
+          <div class="layout-wrapper">
+            <span id="float--3up" class="fragment"></span>
+            <span id="float--floated" class="fragment"></span>
+            <span id="float--padded" class="fragment"></span>
+            <span id="float--2up" class="fragment"></span>
+
+            <div id="float--layout" class="greybox greybox-container clearfix" data-label="Float">
+              <div class="l-primary greybox-region grid-item" data-label=".l-primary"></div>
+              <div class="l-secondary greybox-region grid-item" data-label=".l-secondary"></div>
+              <div class="l-tertiary greybox-region grid-item" data-label=".l-tertiary"></div>
+            </div>
+          </div>
+          <pre>
+            <code class="xml">
+              <div class="l--[modifier]">
+                <div class="l-secondary grid-item">...</div>
+                <div class="l-primary grid-item">...</div>
+                <div class="l-tertiary grid-item">...</div>
+              </div>
+            </code>
+          </pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--pattern">
+          <h1 class="pattern-name">Isolation Layout</h1>
+          <p class="pattern-description">Given a series of floated elements, give each a negative trailing margin in order to reset the oreintaion of the following element.</p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--default">
+          <div class="layout-wrapper">
+            <span id="isolate--primary" class="fragment"></span>
+            <span id="isolate--secondary" class="fragment"></span>
+            <span id="isolate--tertiary" class="fragment"></span>
+            <span id="isolate--rows" class="fragment"></span>
+
+            <div id="isolate--layout" class="greybox greybox-container clearfix" data-label="Isolate">
+              <div class="l-primary greybox-region grid-item" data-label=".l-primary"></div>
+              <div class="l-secondary greybox-region grid-item" data-label=".l-secondary"></div>
+              <div class="l-tertiary greybox-region grid-item" data-label=".l-tertiary"></div>
+            </div>
+          </div>
+          <pre>
+            <code class="xml">
+              <div class="l--[modifier]">
+                <div class="l-secondary grid-item">...</div>
+                <div class="l-primary grid-item">...</div>
+                <div class="l-tertiary grid-item">...</div>
+              </div>
+            </code>
+          </pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <h1>Drupal Layouts</h1>
+          <aside class="notes">
+            You actually have a lot of useful tools at your disposal.
+            <ul>
+              <li>Nodes</li>
+              <li>Views</li>
+              <li>Blocks</li>
+              <li>Layout</li>
+            </ul>
+          </aside>
+        </section>
+        <section data-state="state--blue">
+          <h1>Template Files</h1>
+
+          <pre class="file-list">
+            page.tpl.php
+
+            node.tpl.php
+
+            user-profile.tpl.php
+          </pre>
+          </ul>
+          <aside class="notes">
+          </aside>
+        </section>
+        <section data-state="state--blue">
+          <h4>Learn to love</h4>
+          <h2>Theme Hook Suggestions</h2>
+          <pre><code class="php">
+// Implement within hook_preprocess_page(&$variables).
+$variables[theme_hook_suggestions][] = 'page__[whatever]';
+
+// Implement within hook_preprocess_node(&$variables).
+$variables[theme_hook_suggestions][] = 'node__[whatever]';
+          </code></pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <h3>Create your own Layouts</h3>
+          <pre class="file-list">
+            sidebar_after.inc
+
+            sidebar_after.png
+
+            sidebar_after.css
+
+            sidebar_after.tpl.php
+          </pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <pre class="file-list">
+            sidebar_after.inc
+          </pre>
+          <pre><code class="php">
+  // Plugin definition
+  $plugin = array(
+    'title' => t('Sidebar After'),
+    'category' => t('Custom'),
+    'icon' => 'sidebar_after.png',
+    'theme' => 'sidebar_after',
+    'css' => 'sidebar_after.css',
+    'regions' => array(
+      'main' => t('Content'),
+      'sidebar' => t('Sidebar'),
+    ),
+  );
+          </code></pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <pre class="file-list">
+            sidebar_after.png
+          </pre>
+          <img src="img/sidebar_after.png" alt="">
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <pre class="file-list">
+            sidebar_after.tpl.php
+          </pre>
+          <pre><code class="python">
+  <div class="l--sidebar-after">
+    <?php if ($content['main']): ?>
+      <div class="l-main">
+        <?php print $content['main']; ?>
+      </div>
+    <?php endif; ?>
+    <?php if ($content['sidebar']): ?>
+      <div class="l-sidebar">
+        <?php print $content['sidebar']; ?>
+      </div>
+    <?php endif; ?>
+  </div>
+          </code></pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue">
+          <pre class="file-list">
+            sidebar_after.css
+          </pre>
+          <pre><code class="css">
+  .l--sidebar-after > .l-sidebar {
+    float: left;
+    width: 33.333%;
+  }
+
+  .l--sidebar-after > .l-main {
+    float: left;
+    width: 66.666%;
+  }
+          </code></pre>
+          <aside class="notes">
+          </aside>
+        </section>
+
+
+
+        <section data-state="state--blue" >
+          <h1>cTools Layouts</h1>
+          <ul class="module-list">
+            <li>Panels</li>
+            <li>Display Suite</li>
+            <li>Omega 4.x</li>
+          </ul>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue" >
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue" >
+          <p class="biggie">Design Patterns can be applied in <strong> multiple contexts.</strong></p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue" >
+          <p class="biggie">Design Patterns are <strong>not designed.</strong></p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue" >
+          <p class="biggie">Design Patterns are <strong>observed.</strong></p>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--blue" >
+          <p class="biggie">Help make this better.</p>
+          <a href="https://austin2014.drupal.org/node/2958">https://austin2014.drupal.org/node/2958</a>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--dark">
+          <img class="fragment" src="img/build-something.png" alt="build something beautiful">
+
+          <aside class="notes">
+            By it's nature, Stanford Sites needs to be tightly controlled. But as a platform, we've found it incredibly flexible. We were able to design with surprisingly few restrictions.
+
+            So I'd encourage you to embrace the platform and build something beautiful..
+          </aside>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="lib/js/snap.svg-min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: 'aten', // available themes are in /css/theme
+        transition: 'none' || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+    <script src="js/deck.js"></script>
+
+  </body>
+</html>

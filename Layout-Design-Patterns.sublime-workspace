@@ -1,0 +1,1809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"functi",
+				"function"
+			],
+			[
+				"form",
+				"form_id"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"chapter",
+				"chapter-quote"
+			],
+			[
+				"cap",
+				"chapter-quote"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"cha",
+				"chapter-header"
+			],
+			[
+				"so",
+				"social_links"
+			],
+			[
+				"article",
+				"article--expanded"
+			],
+			[
+				"current",
+				"current_path"
+			],
+			[
+				"profi",
+				"profile-content"
+			],
+			[
+				"profil",
+				"profile-position"
+			],
+			[
+				"pr",
+				"profile-image"
+			],
+			[
+				"fa",
+				"faq-question"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"arti",
+				"article-image"
+			],
+			[
+				"gray",
+				"gray-dark"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"at",
+				"at"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"blu",
+				"blue-dark"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"menu",
+				"menuBackground"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"ev",
+				"event-date"
+			],
+			[
+				"bene",
+				"benefit-member-name"
+			],
+			[
+				"main",
+				"mainNav"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"gra",
+				"gray-light"
+			],
+			[
+				"header",
+				"header-menu"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"scro",
+				"scrollUp"
+			],
+			[
+				"slide",
+				"slideshow-counter-count"
+			],
+			[
+				"item",
+				"fbItem"
+			],
+			[
+				"gallery",
+				"gallery-thumbnail-image"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"flex",
+				"flex-active"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"cpr",
+				"cpr_page_loaded"
+			],
+			[
+				"playlist-search",
+				"playlist-search-close"
+			],
+			[
+				"close",
+				"close_button"
+			],
+			[
+				"l",
+				"l-announcements"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"a",
+				"article-title-base"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ann",
+				"announcement-title"
+			],
+			[
+				"fs-",
+				"fs-xxs"
+			],
+			[
+				"view",
+				"viewmode-screenshot"
+			],
+			[
+				"views",
+				"views"
+			],
+			[
+				"layout",
+				"layout-node-page"
+			],
+			[
+				"lau",
+				"layoutNodes"
+			],
+			[
+				"layou",
+				"layoutNodes"
+			],
+			[
+				"ren",
+				"render_array"
+			],
+			[
+				"is",
+				"isStacked"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"tab",
+				"tab_container"
+			],
+			[
+				"constrain",
+				"constrainTabs"
+			],
+			[
+				"con",
+				"constrainTab"
+			],
+			[
+				"init",
+				"init"
+			],
+			[
+				"pager-i",
+				"pager-item-inner"
+			],
+			[
+				"clr-",
+				"clr-border"
+			],
+			[
+				"pla",
+				"playlist-filters"
+			],
+			[
+				"bp",
+				"bp-playlist-inline-search"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"search",
+				"search_show"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"ca",
+				"campaign-item"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"fs-s",
+				"fs-xs"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"do",
+				"document-content"
+			],
+			[
+				"link",
+				"link--icon-right"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"td",
+				"td:l	text-decoration:line-through"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"mo",
+				"module_invoke	module_invoke"
+			],
+			[
+				"__",
+				"__FUNCTION__"
+			],
+			[
+				"pre",
+				"preprocesses"
+			],
+			[
+				"views_view",
+				"views_view_list"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"on",
+				"on"
+			],
+			[
+				"to",
+				"toggleCache"
+			],
+			[
+				"ha",
+				"hasOwnProperty"
+			],
+			[
+				"collap",
+				"collapse"
+			],
+			[
+				"collapse",
+				"collapsed"
+			],
+			[
+				"tog",
+				"toggleCache"
+			],
+			[
+				"alm",
+				"alm-map"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"col",
+				"collapsable-container"
+			],
+			[
+				"butt",
+				"buttonClick"
+			],
+			[
+				"coll",
+				"collapse"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"crea",
+				"createPopUpContent"
+			],
+			[
+				"set",
+				"setContent"
+			],
+			[
+				"po",
+				"popUp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 32522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/font/blokk/style.css",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/source/aten.scss",
+			"settings":
+			{
+				"buffer_size": 12056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/template/settings.scss",
+			"settings":
+			{
+				"buffer_size": 926,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"bl",
+				"Git: Blame"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Github: Blame"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"git rese",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git re",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git dif",
+				"Git: Diff All"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git l",
+				"Git: Log Current File"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"tra",
+				"Transmit DockSend"
+			],
+			[
+				"trans",
+				"Transmit Send with active Connection"
+			],
+			[
+				"transm",
+				"Transmit DockSend"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 298.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/aten.css",
+		"/Users/pixelwhip/Sites/wri-main.loc/sites/all/themes/wri/sass/components/_comment.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/comment.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/form.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/menu.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--page_volunteer--chapter.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/field.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--page_about--chapter.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/inc/chapter_sidebar.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/node.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/node/_node--event.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--page_events--chapter.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_director.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--page_stay_informed--chapter.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--full--chapter.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/inc/chapter_header.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/social_share.inc",
+		"/Users/pixelwhip/Sites/mra/Gruntfile.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/template.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/page.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/node/_node--article.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_list.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_field.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_sidebar-after.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--featured_blog--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser_dated--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--full--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser_expanded--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/resources/content/article/articles.yaml",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/styles/views-view-list--2up.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/user/user-profile--teaser.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_profile.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/user.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/views.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/user/user-profile--public.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_user.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser_minimal--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/mra_stay_informed/mra_stay_informed.module",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/mra_stay_informed/templates/mra-stay-informed-alert.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/mra_stay_informed/templates/mra-stay-informed.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_header.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/js/mainNav.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/mra_faqs/js/faq.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser--frequently_asked_question.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/menu_config_manager/menu_config_manager.module",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_faq.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_link.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--featured--alert_issue.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_signup.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_block.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_alert-feature.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser_title--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/views-view-list--alert-magazine--block-4.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_stay-informed.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/node/_node--alert.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/block.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/mra.info",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_breakpoint.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser--best_practice.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser--glossary_term.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser--mra_update.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--full-bleed.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser-simple--event.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--external_link--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_button.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/js/tabs.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_page-tabs.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/modules/system/page.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/views-view--news-topics--block-1.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/styles/views-view-list--news-topics--block-1.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/views-view-field--news-topics--view.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/views-view-fields--block-2.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_heading.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_social.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_author.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/base/_elements.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_typography.scss",
+		"/Users/pixelwhip/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/center/templates/page/page.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_region--main.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/contrib/social-share/include/social_share.admin.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/contrib/social-share/include/social_share.theme.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/.sass-cache/22ef2f1c55ee9e42f7b6b9468025ab538f504eed/_typography.scssc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_button.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_partner-search.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_benefit.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/inc/page-footer.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/nav/_nav--footer.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_region--footer.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/inc/page-header.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_constrained.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/nav/_nav--utility.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser_simple--article.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/styles/views-view-list--actions.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/features/mra_placeholder_feature/mra_placeholder_feature.box.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/html/html.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/wysiwyg.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/nav/_nav--main.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--marquee--member_benefit.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_grid.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_browser-support.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/screen.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_css3.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/settings/_color.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/base/_vars.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/default/settings.php",
+		"/Users/pixelwhip/Sites/ldp/app/adapters/pattern.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/js/main.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/libraries/toggle/toggle.js",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_calc.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_search.scss",
+		"/Users/pixelwhip/Sites/wri-main.loc/sites/all/themes/wri/include/block.inc",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_article--figure-teaser.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser-figure--event.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_triangle.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_3-column.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--front.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_page.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/styles/views-view-list--promoted--inverse.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--stay-informed.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--stay-informed--alert-magazine.tpl.php",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_2-column.scss",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/Gemfile",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/config.rb",
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/css/screen.css",
+		"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/js/main.js"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom/menu_config_manager",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/custom",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/base",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/inc",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/wri-main.loc/sites/all/themes",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page",
+			"/Users/pixelwhip/Sites/mra/public_html",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/modules/features",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra",
+			"/Users/pixelwhip/Sites/ldp/app",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq-turkey-2014.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq-turkey-2014.loc/sites/all/themes/wri/sass/layout",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/utilities",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/libraries",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/layout",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/inc",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/modules/contrib",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/modules/contrib/webform",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/modules/contrib/menu_block",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm/templates",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm/inc",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm/sass/components",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules/custom/cpr_api_blocks",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules/custom/cpr_api_blocks/js",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/sass/components",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm/sass/components",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm/sass",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/modules/custom",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/style-guide/core/content",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/modules/custom",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules/custom",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules/custom/cpr_api_blocks",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html",
+			"/Users/pixelwhip/Sites/d7.loc/sites/all/themes/prototype",
+			"/Users/pixelwhip/Sites/cpr.loc/profiles/aten_dev_base/modules/patched/ctools",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all/modules/contrib/panels",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/d7.loc/sites/all/themes/prototype/sass",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/modules/contrib/views",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass/components",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass/layout",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2",
+			"/Users/pixelwhip/Sites/aten.loc/sites/all/themes/atenV2/sass",
+			"/Users/pixelwhip/Sites/alm2014.loc/public_html/sites/all/themes/alm",
+			"/Users/pixelwhip/Sites/wri-main.loc/sites/all/modules/contrib/apachesolr",
+			"/Users/pixelwhip/Sites/wri-main.loc/sites/all/modules",
+			"/Users/pixelwhip/Sites/wri-main.loc/sites/all/modules/contrib/facetapi",
+			"/Users/pixelwhip/Sites/wri-main.loc/sites/all/modules/contrib/apachesolr",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/modules/custom/wri_layouts/plugins/layouts",
+			"/Users/pixelwhip/Sites/bio-x/project",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass/components",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/sipk.loc/sites/all/modules/features",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/sipk.loc/sites/all/themes/sipk/sass",
+			"/Users/pixelwhip/Sites/d7.loc/sites/all/themes/prototype",
+			"/Users/pixelwhip/Sites/d7.loc/sites/all/themes/center",
+			"/Users/pixelwhip/Sites/bio-x/project/styles/sass",
+			"/Users/pixelwhip/Sites/cpr.loc/sites/all",
+			"/Users/pixelwhip/Sites/wri-country.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/bio-x/core",
+			"/Users/pixelwhip/Sites/bio-x/tasks",
+			"/Users/pixelwhip/Sites/bio-x/tasks/options",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/include",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/layout",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/templates",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/include",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri/sass/components",
+			"/Users/pixelwhip/Sites/wri-embarq.loc/sites/all/themes/wri",
+			"/Users/pixelwhip/Sites/nasm.loc/profiles/nasm/themes/nasm/sass",
+			"/Users/pixelwhip/Sites/nasm.loc/profiles/nasm/themes/nasm",
+			"/Users/pixelwhip/Sites/sipk.loc/sites/all/themes/sipk",
+			"/Users/pixelwhip/Sites/nasm.loc/profiles"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n        <section data-state=\"state--default\">\n          <h1>Margin Bleed</h1>\n\n          <aside class=\"notes\">\n          </aside>\n        </section>",
+			"article",
+			"bg",
+			"leag",
+			"ttf",
+			"http://themes.googleusercontent.com/static/fonts/raleway/v7",
+			"term",
+			"event--simp",
+			"fea",
+			"feature--ti",
+			"style",
+			"label",
+			"dpm",
+			"is-inverse",
+			"link",
+			"alert-latest-issue-articles",
+			"class=\"read-more\"",
+			"ul",
+			"event-date",
+			"view",
+			"featured",
+			"dpm",
+			"share to",
+			"social_links",
+			"title",
+			"form",
+			"$content",
+			"copyright",
+			"$fw-semibold",
+			"$fw-semi-bold",
+			"$fw-semibold",
+			"$fw-medium",
+			"social--face",
+			"address ",
+			"addre",
+			"event--date",
+			"is-inverse",
+			"75",
+			"topics",
+			"sidebar",
+			"brand",
+			".header-inner",
+			"content",
+			"menu_toggle",
+			"backgroun",
+			"development_non_minified",
+			"is-promoted",
+			"webinar",
+			"of 23",
+			"l-constrained",
+			"patterns",
+			"thum",
+			"head",
+			"start",
+			"flexslider--gall",
+			"flexslider-gall",
+			"galler",
+			"flexslider--gal",
+			"console",
+			"isTargetValid",
+			"data",
+			"invalid",
+			"preve",
+			"init_imageLightbox",
+			"	",
+			"fluidbox",
+			"left",
+			"style",
+			"opacit",
+			"info",
+			"fig",
+			"figcaption",
+			"backgrou",
+			"fluidbox-ghost",
+			"fluid-ghost",
+			"init_flexsl",
+			"990",
+			"init_flex",
+			"flexslider",
+			"gallery",
+			"slide-ficure-caption",
+			"slide-caption",
+			"gallery",
+			"flexsl",
+			"add_picker_close_button",
+			"cpr_playlist.add_picker_close_button",
+			"defaul",
+			"onRender",
+			"pickat",
+			"moment",
+			"title",
+			"admin/announcements",
+			"rule",
+			"select",
+			"HEAD",
+			"rank",
+			"top-30",
+			"top",
+			"thumbna",
+			"music",
+			"more_text",
+			"action",
+			"bef_checkbox",
+			"highlight",
+			"theme",
+			"featu",
+			"featue",
+			"expanded",
+			"marquee",
+			"teaser",
+			"headline",
+			"article--featured",
+			"logo",
+			"$yellow",
+			"#f0ab00",
+			"gradi",
+			"views-expos",
+			"view-expos",
+			"section-heading",
+			"$orange",
+			"$orange-light",
+			"$orange-dark",
+			"$orange",
+			"@orange",
+			"orange",
+			"$orange;",
+			"$orange-light",
+			"$orange"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"link--more\"",
+			"$fw-regular",
+			"event-date",
+			"l--constrained",
+			"$clr-base-light",
+			"$clr-base",
+			"$clr-base-light",
+			"$clr-base-dark",
+			"$clr-base;",
+			"$clr-base-light",
+			"<li class=\"fragment shrink\" data-fragment-index=\"2\">\n",
+			"---\n",
+			"",
+			"l--constrained",
+			"alm",
+			"$gray-lighter;",
+			"$gray-lightest",
+			"$gray-white",
+			"$red-lighter",
+			"<%= yeoman.core %>",
+			"$no-query: '.lt-ie9'",
+			"",
+			"title: ",
+			"TRUE",
+			"40.0625em",
+			"24px",
+			"#4b8b2a",
+			"cpr",
+			"// nasm",
+			"$export['nasm'] = $theme;",
+			"'theme' => 'nasm'",
+			"nasm",
+			"_center_sg_colors",
+			"',",
+			"nav--primary-base",
+			"service",
+			"div",
+			"$black, .6",
+			"\"",
+			"class=\"sub-navigation\"",
+			"class=\"sub-navigation l--constrained\"",
+			"<span class=\"byline-author\">By <?php print render($author['name']); ?></span>",
+			"$clr-cpr",
+			"nuked",
+			"callout",
+			".nav--pills",
+			".nav--tabs",
+			"l--constrained",
+			"NCWIT",
+			"default",
+			"aspirations",
+			"home",
+			"aspirations",
+			"<a href=\"http://community.wri.org/NetCommunity/donate\" id=\"donate-button\" class=\"link--donate\">Donate</a>",
+			"news",
+			"topics",
+			"shizzle",
+			"$clr-primary",
+			"work",
+			"resource",
+			"search",
+			"@extend .icon-sprite;",
+			"@extend .icon-sprite",
+			"@include icon-sprite-image;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 32522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5672,
+								5672
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2797.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/font/blokk/style.css",
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								340
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/theme/source/aten.scss",
+					"settings":
+					{
+						"buffer_size": 12056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11283,
+								11283
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12451.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/theme/template/settings.scss",
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 178.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"form",
+				"mra/public_html/sites/all/themes/mra/inc/form.inc"
+			],
+			[
+				"mranode.inc",
+				"mra/public_html/sites/all/themes/mra/inc/node.inc"
+			],
+			[
+				"_na",
+				"mra/public_html/sites/all/themes/mra/sass/components/_nav.scss"
+			],
+			[
+				"field.inc",
+				"mra/public_html/sites/all/themes/mra/inc/field.inc"
+			],
+			[
+				"_c",
+				"mra/public_html/sites/all/themes/mra/sass/settings/_color.scss"
+			],
+			[
+				"_be",
+				"mra/public_html/sites/all/themes/mra/sass/components/_benefit.scss"
+			],
+			[
+				"block.inc",
+				"mra/public_html/sites/all/themes/mra/inc/block.inc"
+			],
+			[
+				"grunt",
+				"mra/Gruntfile.js"
+			],
+			[
+				"template.php",
+				"mra/public_html/sites/all/themes/mra/template.php"
+			],
+			[
+				"chapter_he",
+				"mra/public_html/sites/all/themes/mra/templates/node/inc/chapter_header.tpl.php"
+			],
+			[
+				"_side",
+				"mra/public_html/sites/all/themes/mra/sass/layout/_sidebar-after.scss"
+			],
+			[
+				"views",
+				"mra/public_html/sites/all/themes/mra/inc/views.inc"
+			],
+			[
+				"node--da",
+				"mra/public_html/sites/all/themes/mra/templates/node/node--teaser_dated--article.tpl.php"
+			],
+			[
+				"node--full-art",
+				"mra/public_html/sites/all/themes/mra/templates/node/node--full--article.tpl.php"
+			],
+			[
+				"_list",
+				"mra/public_html/sites/all/themes/mra/sass/components/_list.scss"
+			],
+			[
+				"_node-arti",
+				"mra/public_html/sites/all/themes/mra/sass/components/node/_node--article.scss"
+			],
+			[
+				"page.in",
+				"mra/public_html/sites/all/themes/mra/inc/page.inc"
+			],
+			[
+				"user-t",
+				"mra/public_html/sites/all/themes/mra/templates/user/user-profile--teaser.tpl.php"
+			],
+			[
+				"node-teaser_da",
+				"mra/public_html/sites/all/themes/mra/templates/node/node--teaser_dated--article.tpl.php"
+			],
+			[
+				"bleed",
+				"mra/public_html/sites/all/themes/mra/templates/page/page--full-bleed.tpl.php"
+			],
+			[
+				"page/page",
+				"mra/public_html/sites/all/themes/mra/templates/page/page.tpl.php"
+			],
+			[
+				"page.tpl",
+				"mra/public_html/modules/system/page.tpl.php"
+			],
+			[
+				"page.inc",
+				"mra/public_html/sites/all/themes/mra/inc/page.inc"
+			],
+			[
+				"_typ",
+				"mra/public_html/sites/all/themes/mra/sass/settings/_typography.scss"
+			],
+			[
+				"_typo",
+				"mra/public_html/sites/all/themes/mra/.sass-cache/22ef2f1c55ee9e42f7b6b9468025ab538f504eed/_typography.scssc"
+			],
+			[
+				"_headin",
+				"mra/public_html/sites/all/themes/mra/sass/components/_heading.scss"
+			],
+			[
+				"_typog",
+				"public_html/sites/all/themes/mra/sass/settings/_typography.scss"
+			],
+			[
+				"_color",
+				"public_html/sites/all/themes/mra/sass/settings/_color.scss"
+			],
+			[
+				"vars",
+				"public_html/sites/all/themes/mra/sass/base/_vars.scss"
+			],
+			[
+				"nodemember",
+				"public_html/sites/all/themes/mra/templates/node/node--marquee--member_benefit.tpl.php"
+			],
+			[
+				"sett",
+				"cpr.loc/sites/default/settings.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true
+}
