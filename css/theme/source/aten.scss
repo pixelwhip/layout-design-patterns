@@ -1,0 +1,1160 @@
+/**
+ * Solarized Light theme for reveal.js.
+ * Author: Achim Staebler
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+@import 'susy';
+
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../../lib/font/league_gothic-webfont.eot');
+	src: url('../../lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../lib/font/league_gothic-webfont.woff') format('woff'),
+		 url('../../lib/font/league_gothic-webfont.ttf') format('truetype'),
+		 url('../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(../../lib/font/Raleway/Raleway-Thin.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(../../lib/font/Raleway/Raleway-ExtraLight.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(../../lib/font/Raleway/Raleway-Light.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(../../lib/font/Raleway/Raleway-Regular.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(../../lib/font/Raleway/Raleway-Medium.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(../../lib/font/Raleway/Raleway-SemiBold.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(../../lib/font/Raleway/Raleway-Bold.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(../../lib/font/Raleway/Raleway-ExtraBold.otf) format('otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Raleway Heavy'), local('Raleway-Heavy'), url(../../lib/font/Raleway/Raleway-Heavy.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'BLOKK';
+  src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot');
+  src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../../lib/font/blokk/BLOKKNeue-Regular.woff') format('woff'),
+       url('../../lib/font/blokk/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+@mixin guides($height: 2.5em) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: $height;
+  padding-bottom: $height;
+}
+
+/**
+ * Solarized colors by Ethan Schoonover
+ */
+html * {
+	color-profile: sRGB;
+	rendering-intent: auto;
+}
+
+// Solarized colors
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$cyan:      #2aa198;
+$green:     #859900;
+
+// Aten Colors
+$black:         #222222;
+$gray-dark:     #404042;
+$gray:          #999999;
+$gray-white:    #DDC1E8;
+$white:         #f8f8f8;
+$yellow:        #fcc318;
+$red:           #cc0000;
+$blue:          #006699;
+$blue--dark:    #004466;
+$blue--white:   #ccebf5;
+$orange:        #f98700;
+$orange--dark:  #f64b00;
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: $gray-dark;
+$headingColor: $red;
+$headingTextShadow: none;
+$backgroundColor: $white;
+$linkColor: $orange;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: $magenta;
+
+// Background generator
+@mixin bodyBackground() {
+	@include radial-gradient( rgba(lighten($gray, 30%) ,1), rgba($backgroundColor, 1) );
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+//
+// States
+//
+
+
+// Drupalcon
+// $mainColor: rgb(103, 76, 54);
+// $headingColor: ;
+// $headingTextShadow: none;
+// $backgroundColor: ;
+// $linkColor: rgb(68, 68, 68);
+// $linkColorHover: lighten( $linkColor, 20% );
+// $selectionBackgroundColor: $magenta;
+
+.state--dcon {
+  .reveal section {
+    .dcon-title {
+      color: rgb(129, 57, 60);
+      font-family: 'Raleway', 'League Gothic', Impact, sans-serif;
+      font-size: 80px;
+      margin-top: 3em;
+      text-transform: none;
+    }
+  }
+}
+
+
+// Red
+  $mainColor: $black;
+  $headingColor: $white;
+  $headingTextShadow: none;
+  $backgroundColor: $red;
+  $linkColor: $yellow;
+  $linkColorHover: lighten( $linkColor, 20% );
+  $selectionBackgroundColor: $magenta;
+
+.state--red {
+  // Override theme settings (see ../template/settings.scss)
+
+
+  // Background generator
+  @mixin bodyBackground() {
+    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 20%),1) );
+  }
+
+  @import "../template/theme";
+}
+
+// Blue
+  $mainColor: $white;
+  $headingColor: $white;
+  $headingTextShadow: none;
+  $backgroundColor: $blue;
+  $linkColor: $yellow;
+  $linkColorHover: lighten( $linkColor, 20% );
+  $selectionBackgroundColor: $magenta;
+
+.state--blue {
+  // Override theme settings (see ../template/settings.scss)
+
+
+  // Background generator
+  @mixin bodyBackground() {
+    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 20%),1) );
+  }
+
+  @import "../template/theme";
+}
+
+// Yellow
+  $mainColor: $black;
+  $headingColor: $white;
+  $headingTextShadow: none;
+  $backgroundColor: $yellow;
+  $linkColor: $red;
+  $linkColorHover: lighten( $linkColor, 20% );
+  $selectionBackgroundColor: $magenta;
+
+.state--yellow {
+  // Override theme settings (see ../template/settings.scss)
+
+
+  // Background generator
+  @mixin bodyBackground() {
+    @include radial-gradient( rgba(orange,1), rgba(lighten($backgroundColor, 0),1) );
+  }
+
+  @import "../template/theme";
+}
+
+// Dark
+  $mainColor: $white;
+  $headingColor: $white;
+  $headingTextShadow: none;
+  $backgroundColor: $black;
+  $linkColor: $yellow;
+  $linkColorHover: lighten( $linkColor, 20% );
+  $selectionBackgroundColor: $magenta;
+
+.state--dark {
+  // Override theme settings (see ../template/settings.scss)
+
+  // Background generator
+  @mixin bodyBackground() {
+    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 10%),1) );
+  }
+
+  @import "../template/theme";
+}
+
+.state--overlay {
+  .slide-background {
+    background-color: $blue;
+    background-blend-mode: multiply;
+  }
+}
+
+// wrap everything in .reveal section to overcome specificity
+.reveal .slide-canvas {
+  height: 95%;
+}
+
+//
+// Start wrapping everything to compensate for the specificity of reveal.
+//
+
+.reveal section {
+
+ p {
+  font-weight: 300;
+ }
+
+.biggie {
+  font-size: 60px;
+}
+
+.link--twitter {
+  margin-left: 2em;
+
+  > i {
+    font-size: 24px;
+    margin-right: .5em;
+  }
+}
+
+pre {
+  box-shadow: none;
+}
+
+//
+// Images
+//
+.screenshot {
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+//
+// Aten Logo
+//
+
+.aten-logo {
+  width: 400px;
+  margin-bottom: 2em;
+}
+
+//
+// Profile
+//
+
+.profile-header {
+    float: left;
+    width: 460px;
+    padding-top: 200px;
+}
+
+.profile-name {
+    font-size: 56px;
+    color: white;
+    text-shadow: 0 0 10px rgba($black, .8);
+}
+
+.profile-date {
+    color: white;
+}
+
+//
+// Patterns
+//
+
+.pattern-name {
+  text-align: left;
+  font-family: "Lato", "League Gothic", sans-serif;
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 900;
+  text-transform: none;
+}
+
+.pattern-description {
+  text-align: left;
+  font-size: 50px;
+  max-width: 16em;
+}
+
+//
+// Article
+//
+
+.article-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  max-width: 33em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.article {
+  text-align: left;
+}
+
+.article-paragraph {
+  font-size: 18px;
+  margin-bottom: 24px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+.quote,
+.quote-author {
+  box-shadow: none;
+  color: $red;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 1.2em;
+}
+
+.article-pullquote {
+  font-size: 22px;
+  line-height: 1.2em;
+  font-style: normal;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: .6em;
+  margin-bottom: 24px;
+  width: 100%;
+  font-weight: 700;
+  padding: .8em 0;
+  border-top: 3px solid $red;
+  border-bottom: 3px solid $red;
+  float: left;
+  transition: all 1s ease;
+  letter-spacing: .01em;
+}
+
+#gutter-width.visible ~ .article-wrapper .article-pullquote {
+  width: 14em;
+  margin-right: 1.4em;
+}
+
+#gutter-pulled.visible ~ .article-wrapper .article-pullquote {
+  margin-left: -5.2em;
+}
+
+//
+// Constrained
+//
+
+.article-wrapper {
+  transition: all 1s ease;
+}
+
+#constrained--before ~ .article-wrapper {
+  max-width: 60em;
+}
+
+#constrained--after.visible ~ .article-wrapper {
+  max-width: 33em;
+}
+
+.spaced {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+//
+// Float
+//
+
+#float--layout {
+  .grid-item {
+    transition: all 1s ease;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+#float--3up.visible ~ #float--layout > .grid-item {
+  width: 33.333%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#float--floated.visible ~ #float--layout > .grid-item {
+  float: left;
+}
+
+#float--padded.visible ~ #float--layout > .grid-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 30px 0 0 0 rgba($black, .2) inset, -30px 0 0 0 rgba($black, .2) inset;
+}
+
+#float--2up.visible ~ #float--layout > .grid-item {
+  width: 50%;
+}
+
+//
+// Isolate
+//
+
+#isolate--layout {
+  .grid-item {
+    transition: all 1s ease;
+    box-sizing: border-box;
+    width: 33.333%;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 30px 0 0 0 rgba($black, .2) inset, -30px 0 0 0 rgba($black, .2) inset;
+  }
+}
+
+$susy: (
+  columns: 12,  // The number of columns in your grid
+  gutters: 0, // The size of a gutter in relation to a single column
+  output: isolate,
+);
+
+#isolate--primary.visible ~ #isolate--layout {
+  > .l-primary   { @include span(4 at 1); }
+  > .l-secondary { @include span(4 at 1); }
+  > .l-tertiary  { @include span(4 at 1); }
+}
+
+#isolate--secondary.visible ~ #isolate--layout {
+  > .l-primary   { @include span(4 at 9); }
+  > .l-secondary { @include span(4 at 1); }
+  > .l-tertiary  { @include span(4 at 1); }
+}
+
+#isolate--tertiary.visible ~ #isolate--layout {
+  > .l-primary   { @include span(5 at 8); }
+  > .l-secondary { @include span(3 at 4); }
+  > .l-tertiary  { @include span(3 at 1); }
+}
+
+#isolate--rows.visible ~ #isolate--layout {
+  > .l-primary   { @include span(7 at 1); }
+  > .l-secondary {
+    @include span(5 at 1 of rtl);
+    min-height: 17em;
+  }
+  > .l-tertiary  {
+    @include span(7 at 1);
+    clear: left;
+  }
+}
+
+//
+// File list
+//
+
+.file-list {
+  font-size: 1em;
+}
+
+//
+// Module list
+//
+
+.module-list {
+  margin: 1em auto;
+
+  li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+//
+// Book
+//
+
+.book-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  max-width: 48em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  text-align: left;
+  transition: all 1.5s ease;
+}
+
+.book--teaser {
+  transition: all 1.5s ease;
+}
+
+.book-cover {
+  text-align: center;
+  width: 100%;
+  float: left;
+  transition: all 1s ease;
+  margin-bottom: 12px;
+}
+
+.book-image {
+  box-shadow: 0 0 6px rgba($black, .4);
+  margin: 0;
+}
+
+.book-title {
+  font-family: "Lato", "League Gothic", sans-serif;
+  text-transform: none;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.book-authors {
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+#book-padding.visible ~ .book-wrapper .book--teaser {
+  padding-left: 180px;
+
+  box-shadow: 180px 0 0 0 rgba($blue, .2) inset;
+}
+
+#book-width.visible ~ .book-wrapper .book-cover {
+  width: 140px;
+}
+
+#book-pulled.visible ~ .book-wrapper .book--teaser {
+  box-shadow: 180px 0 0 0 rgba($blue, 0) inset;
+}
+
+#book-pulled.visible ~ .book-wrapper .book-cover {
+  margin-left: -180px;
+}
+
+#book-fluid.visible ~ .book-wrapper {
+  max-width: 32em;
+}
+
+//
+// Block Title
+//
+
+.block-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  max-width: 32em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  text-align: left;
+  transition: all 1.5s ease;
+}
+
+.block-title {
+  font-family: "Lato", "League Gothic", sans-serif;
+  background-color: $red;
+  color: white;
+  text-transform: none;
+  font-size: 36px;
+  padding: 18px 24px;
+   transition: all 1s ease;
+  margin-bottom: 0;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: " ";
+    display: block;
+    border-top: 18px #333 solid;
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+  }
+
+  &:before {
+    left: 0;
+    border-left: 24px transparent solid;
+  }
+  &:after {
+    right: 0;
+    border-right: 24px transparent solid;
+  }
+}
+
+.block-content {
+  padding: 24px;
+  position: relative;
+  background-image: linear-gradient($white 24px, rgba($white, 0));
+}
+
+.block-paragraph {
+  font-size: 21px;
+}
+
+#block-overflow.visible ~ .block-wrapper .block-title {
+  margin: 0 -24px;
+}
+
+//
+// Ratios
+//
+
+.ratio-wrapper {
+  @include guides;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 1s ease;
+}
+
+.video-container {
+  border-top: 1px solid #999;
+  border-: 1px solid #999;
+  background-color: rgba($black, .2);
+  transition: all 1s ease;
+  position: relative;
+
+  > iframe {
+    position: relative;
+    transition: all 1s ease;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 1s ease;
+  }
+}
+
+#ratio-incorrect.visible ~ .ratio-wrapper {
+  width: 320px;
+}
+
+#ratio-padding.visible ~ .ratio-wrapper .video-container {
+  padding-top: 65.25%;
+  height: 360px;
+
+  > iframe {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+#ratio-position.visible ~ .ratio-wrapper .video-container {
+  height: 0;
+
+  > iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#ratio-correct.visible ~ .ratio-wrapper {
+  width: 640px;
+}
+
+#ratio-correct-2.visible ~ .ratio-wrapper {
+  width: 320px;
+}
+
+//
+// Cover
+//
+
+.cover {
+  max-height: 450px;
+}
+
+
+//
+// Grid
+//
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.layout-wrapper {
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  text-align: left;
+}
+
+.grid--3-column {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 18px;
+  transition: margin 1s ease;
+
+  > .grid-item {
+    width: 33.333%;
+    padding: 3.5em 30px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #999;
+    line-height: 24px;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    > .greybox-region {
+      margin-left: -30px;
+      margin-right: -30px;
+      box-shadow: 30px 0 0 0 rgba($blue, .2) inset, -30px 0 0 0 rgba($blue, .2) inset;
+      padding: 0 30px;
+      background-color: rgba($black, 0);
+      min-height: 13em;
+      border-left: none;
+      border-right: none;
+    }
+  }
+}
+
+#overflow-3-column--full.visible ~ .grid--3-column {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+//
+// Work Samples
+//
+
+.work-sample {
+  width: 230px;
+  vertical-align: top;
+}
+
+//
+// Properties
+//
+
+.properties-wrapper {
+  padding-top: 30px;
+  column-count: 3;
+  column-gap: 60px;
+
+  .properties {
+
+    > li {
+      font-weight: 700;
+      margin-bottom: 6px;
+      list-style: none;
+    }
+  }
+}
+
+//
+// Anatomy of a Drupal page
+//
+
+#complex-layouts {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  opacity: .4;
+
+  > svg {
+    width: 100%;
+  }
+}
+
+//
+// Anatomy of a Drupal page
+//
+
+#layout-node-page {
+	width: 300px;
+	height: 400px;
+	margin: auto;
+  opacity: .4;
+
+	&.visible {
+		transform: translateX(-50%);
+	}
+
+	&.current-fragment {
+		transform: none;
+	}
+}
+
+.layout-list {
+	position: absolute;
+	top: 4em;
+	left: 58%;
+
+	.fragment {
+		list-style: none;
+		margin-bottom: 1em;
+
+		&.visible {
+			opacity: .3 !important;
+		}
+
+		&.current-fragment {
+			opacity: 1 !important;
+		}
+	}
+}
+
+.layout-title {
+  text-align: left;
+  margin-left: 50%;
+}
+
+.layout-img {
+  position: absolute;
+  width: 400px;
+  opacity: .4;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto !important;
+  max-height: none;
+}
+
+//
+// View Modes
+//
+
+.view-mode--full {
+  position: absolute;
+  top: 3em;
+  right: 0;
+  width: 60%;
+}
+
+.view-mode--teaser {
+  position: absolute;
+  left: 0;
+  width: 60%;
+  bottom: 10%;
+}
+
+.view-mode--listing {
+  position: absolute;
+  width: 25%;
+  top: 20%;
+  left: 5%;
+}
+
+//
+// Acronyms
+//
+
+.acronym > strong {
+  font-weight: inherit;
+  color: darken($red, 20%);
+}
+
+.background-text {
+  position: absolute;
+  display: block;
+  font-size: 20em !important;
+  line-height: .66em;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  vertical-align: bottom;
+  opacity: .1;
+}
+
+.title-left {
+  margin-left: 0;
+  width: 38%;
+}
+
+.screenshot--regions {
+  position: absolute;
+  max-height: none;
+  max-width: none;
+  height: 42em;
+  top: -8em;
+  left: 38%;
+}
+
+//
+// Layouts
+//
+
+#layouts-example {
+  width: 420px;
+  height: 640px;
+  margin: auto;
+  opacity: .8;
+
+  > svg {
+    max-width: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+//
+// Circle of Life
+//
+
+.circle {
+  position: absolute;
+  text-shadow:
+    $yellow 0 0 20px,
+    $yellow 0 0 20px,
+    $yellow 0 0 20px;
+}
+
+.circle-drupal {
+  top: 5%;
+  width: 100%;
+  left: auto;
+  right: auto;
+  text-align: center;
+}
+
+.circle-html {
+  bottom: 10%;
+  left: 10%;
+  width: 33%;
+}
+
+.circle-css {
+  bottom: 10%;
+  right: 10%;
+  width: 33%;
+}
+
+.circle-arrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  -webkit-animation-name: spin;
+    -webkit-animation-duration: 12000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 12000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 12000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 12000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.theme-components {
+  vertical-align: middle;
+}
+
+.theme-component {
+  display: inline-block;
+}
+
+.theme-component-symbol {
+  font-size: .825em;
+  &:before {
+    content: "";
+    display: block
+  }
+}
+
+.theme-component-separator {
+  display: inline-block;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: 20px;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.block-class-list {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.block-class-item {
+  display: inline-block;
+  width: 24%;
+  list-style: none;
+
+  > img {
+    max-height: 200px;
+  }
+}
+
+.breakpoint-list {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  position: absolute;
+  width: 100%;
+  top: 4em;
+  left: 0;
+}
+
+.breakpoint-item {
+  display: inline-block;
+  width: 18%;
+  list-style: none;
+  vertical-align: top;
+  margin-right: -.3em;
+
+  > code {
+    font-size: .5em;
+  }
+}
+
+.block-class-code {
+  display: block;
+  font-size: .5em;
+}
+
+.screenshot-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+@import 'partials/greybox';
+
+
+} // End .reveal .section wrapper
+
+#about {
+  .ss-twitter {
+    margin-left: 50px;
+    margin-right: 12px;
+    font-size: 24px;
+  }
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
+}
+
