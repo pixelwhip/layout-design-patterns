@@ -55,17 +55,13 @@
         <section id="about" data-state="state--dark">
           <img src="img/aten-logo.svg" alt="Aten Logo" class="aten-logo">
           <aside class="notes">
-            ##  I work at Aten
-
             I'm the Lead Front-end Developer at Aten Design Group in Denver, CO.
           </aside>
         </section>
 
         <section  data-state="state--dark" data-background="img/bg-clients.png">
           <aside class="notes">
-            ## We work with organizations doing good work all over the world
-
-            National and international non-profits and NGO's.
+            We work with organizations doing good work all over the world
           </aside>
         </section>
 
@@ -75,28 +71,24 @@
           <img src="img/ss-wri-home.jpg" alt="" class="work-sample">
 
           <aside class="notes">
-            ## These organization haves a lot of content
-
-            Our clients typically have a lot of content.  Articles, Projects, Blog posts. Reports with related charts, graphs and media.  The content is dynamic and the sites themselves are responsive.
-
-            ## Their sites have complex layouts
-
+            <p>Our clients typically have a lot of content.</p>
+            <p>Articles, Projects, Blog posts. Reports with related charts, graphs and media.  The content is dynamic and the sites themselves are responsive.
+            <p>Which often leads to some fairly complex layouts</p>
           </aside>
         </section>
 
         <section  data-state="state--dark">
           <img src="img/layout-sketch.png" alt="" />
           <aside class="notes">
-            ## I spend a good part of my job solving layout problems
-
-            So a large part of my daily task are comprised of solving complex layout problems. ...trying to manipulate markup with CSS in order to present information in a readable way.
+            <p>I spend a good part of my job solving layout problems</p>
+            <p>...trying to manipulate markup with CSS in order to present information in a readable and understandable way.</p>
           </aside>
         </section>
 
         <section  data-state="state--dark">
           <img src="img/ss-cpr-home.jpg" alt="" />
           <aside class="notes">
-            ## Complex problems can be broken down into smaller simpler problems
+            <p>Complex problems can be broken down into smaller simpler problems</p>
           </aside>
         </section>
         <section  data-state="state--dark">
@@ -133,24 +125,18 @@
             <img class="profile-image" src="img/christopher-alexander.png" alt="Christopher Alexander" >
           </div>
           <aside class="notes">
-            ## The concept comes from architecture
-            You may have heard of the term used in The concept didn't originate from graphic design or computer science. It actually comes from Architecture.
+            <p>The concept didn't originate from graphic design or computer science. It actually comes from Architecture.</p>
 
-            ## Christopher Alexander was an architect and professor at UC Berkley
-
-            In 1979 in architect named Christopher Alexander, put off by the utilitarian sterile nature of contemporary building of the time came up with the idea that some of the most pleasant or as he calls them, "alive" buildings were those not created or designed by architects, but those designed and built by the inhabitants themselves using rules of thumb or design patterns learned through experience.
+            <p>Christopher Alexander was an architect and professor at UC Berkley</p>
           </aside>
         </section>
 
         <section  data-state="state--blue" data-background="img/christopher-alexander-books.jpg">
           <aside class="notes">
-            ## In 1979 he published "The Timeless Way of Building"
-
-            Alexander along with a number of his colleagues at the time, published a series of books that explained the concept of design patterns. "The Timeless Way of Building" and "A Pattern Language"
-
-            ## It describes an architecture theory in which it doesn't take an architect to design a building
-            ## That anyone can design a building by applying the appropriate design patterns to their context
-
+            <p>In 1979 he published "The Timeless Way of Building"</p>
+            <p>The Timeless Way of Building describes an architecture theory in which it doesn't take an architect to design a building.</p>
+            <p>But through a common language, anyone can design simply by applying the appropriate solution to the particular design problem.</p>
+            <p>"A Pattern Language" describes each of these solutions in detail.</p>
           </aside>
         </section>
 
@@ -158,7 +144,7 @@
           <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"> <img class="screenshot" src="img/cover-design-patterns.jpg" alt=""></a>
 
           <aside class="notes">
-            ## The concept was applied to Computer Science when Design Patterns: Elements of Reusable Object-Oriented Software was published in 1994 by the Gang of Four
+            <p> The concept was applied to Computer Science when Design Patterns: Elements of Reusable Object-Oriented Software was published in 1994 by the Gang of Four</p>
           </aside>
         </section>
 
@@ -198,7 +184,6 @@
           <span class="fragment" data-fragment-on-show="layoutsShowContent" data-fragment-on-hide="layoutsHideContent"></span>
 
           <aside class="notes">
-            ## Let's define a layout
           <ul>
             <li >Layouts are the structure of a screen</li>
             <li >Layouts are made of containers in which content is placed</li>
@@ -358,11 +343,11 @@
           </div>
           <pre>
             <code class="xml">
-              <div class="l--[modifier]">
-                <div class="l-primary">...</div>
-                <div class="l-secondary">...</div>
-                <div class="l-tertiary">...</div>
-              </div>
+  <div class="l--[modifier]">
+    <div class="l-primary">...</div>
+    <div class="l-secondary">...</div>
+    <div class="l-tertiary">...</div>
+  </div>
             </code>
           </pre>
 
@@ -396,11 +381,20 @@
           </div>
           <pre>
             <code class="xml">
-                <article class="article article--teaser">
-                  <figure class="article-image">...</figure>
-                  <header class="article-header">...</header>
-                  <div class="article-content">...</div>
-                </article>
+  <article class="article article--teaser">
+    <figure class="article-figure">...</figure>
+    <header class="article-header">...</header>
+    <div class="article-content">...</div>
+  </article>
+            </code>
+          </pre>
+         <pre>
+            <code class="scss">
+  .article--teaser {
+    > .article-figure  { ... }
+    > .article-header  { ... }
+    > .article-content { ... }
+  }
             </code>
           </pre>
           <aside class="notes">
@@ -995,16 +989,6 @@ $variables[theme_hook_suggestions][] = 'node__[whatever]';
           <p class="biggie">Help make this better.</p>
           <a href="https://austin2014.drupal.org/node/2958">https://austin2014.drupal.org/node/2958</a>
           <aside class="notes">
-          </aside>
-        </section>
-
-        <section data-state="state--dark">
-          <img class="fragment" src="img/build-something.png" alt="build something beautiful">
-
-          <aside class="notes">
-            By it's nature, Stanford Sites needs to be tightly controlled. But as a platform, we've found it incredibly flexible. We were able to design with surprisingly few restrictions.
-
-            So I'd encourage you to embrace the platform and build something beautiful..
           </aside>
         </section>
       </div>

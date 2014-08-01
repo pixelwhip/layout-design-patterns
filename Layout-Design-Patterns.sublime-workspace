@@ -4,6 +4,110 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"float",
+				"float-layout"
+			],
+			[
+				"arti",
+				"article-wrapper"
+			],
+			[
+				"leve",
+				"level-1"
+			],
+			[
+				"prop",
+				"Properties"
+			],
+			[
+				"col",
+				"column-gap"
+			],
+			[
+				"column",
+				"column-count"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"gr",
+				"greybox"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"tt",
+				"text-transform"
+			],
+			[
+				"ar",
+				"article-pullquote"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"blue",
+				"blue"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"gray",
+				"gray-white"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"heading",
+				"headingFont"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"import",
+				"import"
+			],
+			[
 				"word",
 				"word-spacing"
 			],
@@ -16,20 +120,8 @@
 				"margin-right"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"ma",
 				"margin-top"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"functi",
@@ -40,20 +132,12 @@
 				"form_id"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"chapter",
 				"chapter-quote"
 			],
 			[
 				"cap",
 				"chapter-quote"
-			],
-			[
-				"paddin",
-				"padding-bottom"
 			],
 			[
 				"arr",
@@ -100,20 +184,8 @@
 				"scrollTop"
 			],
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
 				"bac",
 				"background-color"
-			],
-			[
-				"arti",
-				"article-image"
-			],
-			[
-				"gray",
-				"gray-dark"
 			],
 			[
 				"fon",
@@ -146,10 +218,6 @@
 			[
 				"pa",
 				"padding-top"
-			],
-			[
-				"bord",
-				"border-radius"
 			],
 			[
 				"p",
@@ -268,10 +336,6 @@
 				"article-title-base"
 			],
 			[
-				"marg",
-				"margin"
-			],
-			[
 				"inline",
 				"inline-block"
 			],
@@ -372,20 +436,12 @@
 				"campaign-item"
 			],
 			[
-				"import",
-				"important"
-			],
-			[
 				"fs-s",
 				"fs-xs"
 			],
 			[
 				"marin",
 				"margin-top"
-			],
-			[
-				"box",
-				"box-shadow"
 			],
 			[
 				"do",
@@ -458,62 +514,6 @@
 			[
 				"ha",
 				"hasOwnProperty"
-			],
-			[
-				"collap",
-				"collapse"
-			],
-			[
-				"collapse",
-				"collapsed"
-			],
-			[
-				"tog",
-				"toggleCache"
-			],
-			[
-				"alm",
-				"alm-map"
-			],
-			[
-				"backgroun",
-				"background-image"
-			],
-			[
-				"background",
-				"background-color"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"col",
-				"collapsable-container"
-			],
-			[
-				"butt",
-				"buttonClick"
-			],
-			[
-				"coll",
-				"collapse"
-			],
-			[
-				"app",
-				"append"
-			],
-			[
-				"crea",
-				"createPopUpContent"
-			],
-			[
-				"set",
-				"setContent"
-			],
-			[
-				"po",
-				"popUp"
 			]
 		]
 	},
@@ -523,15 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 32522,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/font/blokk/style.css",
-			"settings":
-			{
-				"buffer_size": 340,
+				"buffer_size": 44160,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,15 +531,23 @@
 			"file": "css/theme/source/aten.scss",
 			"settings":
 			{
-				"buffer_size": 12056,
+				"buffer_size": 20490,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/theme/template/settings.scss",
+			"file": "css/theme/source/partials/_layouts.scss",
 			"settings":
 			{
-				"buffer_size": 926,
+				"buffer_size": 2863,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/deck.js",
+			"settings":
+			{
+				"buffer_size": 1465,
 				"line_ending": "Unix"
 			}
 		}
@@ -668,6 +668,16 @@
 	},
 	"file_history":
 	[
+		"/Users/pixelwhip/Presentations/layout_design_patterns/README.md",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/source/partials/_greybox.scss",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/img/ss-cpr-layout.svg",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/img/layouts.svg",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/.gitignore",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/Gruntfile.js",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/template/theme.scss",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/template/settings.scss",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/partials/_greybox.scss",
+		"/Users/pixelwhip/Presentations/layout_design_patterns/lib/font/blokk/style.css",
 		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/aten.css",
 		"/Users/pixelwhip/Sites/wri-main.loc/sites/all/themes/wri/sass/components/_comment.scss",
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/inc/comment.inc",
@@ -785,17 +795,7 @@
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_article--figure-teaser.scss",
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser-figure--event.tpl.php",
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_triangle.scss",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_3-column.scss",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--front.tpl.php",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_page.scss",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/views/styles/views-view-list--promoted--inverse.tpl.php",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--stay-informed.tpl.php",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/page/page--stay-informed--alert-magazine.tpl.php",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_2-column.scss",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/Gemfile",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/config.rb",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/css/screen.css",
-		"/Users/pixelwhip/Sites/cpr.loc/sites/all/themes/cpr/js/main.js"
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_3-column.scss"
 	],
 	"find":
 	{
@@ -941,6 +941,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"primary",
+			"gh",
+			"context",
+			"reus",
+			"l1",
+			"drupal",
+			"span",
+			"box",
+			"isolat",
+			"isolation",
+			"layout",
+			"selectAll",
+			"layouts",
+			"drupal page",
+			"layout",
+			"layouts",
+			"svg",
+			"layout",
+			"layouts",
+			"column",
+			"greybox",
+			"class-based",
+			"trans",
+			"pull",
+			"pattern-description",
+			"lato",
+			"layout",
+			"layout\\",
+			"pattern-des",
+			"id=\"\"",
+			"state--yellow",
+			"l--try",
+			"sass",
+			"$white-",
+			"$black",
+			"$white",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consectetur, quas, veniam, impedit minima voluptas libero officiis nobis fugit quo soluta voluptates. Aliquam, illum, ex tenetur dolores nihil omnis harum.",
+			"layout",
 			"\n        <section data-state=\"state--default\">\n          <h1>Margin Bleed</h1>\n\n          <aside class=\"notes\">\n          </aside>\n        </section>",
 			"article",
 			"bg",
@@ -1030,45 +1068,7 @@
 			"defaul",
 			"onRender",
 			"pickat",
-			"moment",
-			"title",
-			"admin/announcements",
-			"rule",
-			"select",
-			"HEAD",
-			"rank",
-			"top-30",
-			"top",
-			"thumbna",
-			"music",
-			"more_text",
-			"action",
-			"bef_checkbox",
-			"highlight",
-			"theme",
-			"featu",
-			"featue",
-			"expanded",
-			"marquee",
-			"teaser",
-			"headline",
-			"article--featured",
-			"logo",
-			"$yellow",
-			"#f0ab00",
-			"gradi",
-			"views-expos",
-			"view-expos",
-			"section-heading",
-			"$orange",
-			"$orange-light",
-			"$orange-dark",
-			"$orange",
-			"@orange",
-			"orange",
-			"$orange;",
-			"$orange-light",
-			"$orange"
+			"moment"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1150,7 +1150,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1158,15 +1158,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 32522,
+						"buffer_size": 44160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5672,
-								5672
+								8048,
+								8048
 							]
 						],
 						"settings":
@@ -1238,6 +1238,7 @@
 							[
 							],
 							"pyflakes_ignore_import_*": true,
+							"spell_check": true,
 							"sublimelinter": true,
 							"sublimelinter_delay": 2.0,
 							"sublimelinter_disable":
@@ -1265,140 +1266,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2797.0,
+						"translation.y": 4190.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lib/font/blokk/style.css",
-					"settings":
-					{
-						"buffer_size": 340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								340
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/theme/source/aten.scss",
 					"settings":
 					{
-						"buffer_size": 12056,
+						"buffer_size": 20490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11283,
-								11283
+								11435,
+								11435
 							]
 						],
 						"settings":
@@ -1497,25 +1383,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12451.0,
+						"translation.y": 11672.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "css/theme/template/settings.scss",
+					"buffer": 2,
+					"file": "css/theme/source/partials/_layouts.scss",
 					"settings":
 					{
-						"buffer_size": 926,
+						"buffer_size": 2863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								2263,
+								2263
 							]
 						],
 						"settings":
@@ -1612,7 +1498,124 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/deck.js",
+					"settings":
+					{
+						"buffer_size": 1465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1399,
+								1399
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 705.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1665,6 +1668,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"grey",
+				"css/theme/source/partials/_greybox.scss"
+			],
 			[
 				"form",
 				"mra/public_html/sites/all/themes/mra/inc/form.inc"
