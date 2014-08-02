@@ -468,6 +468,12 @@ body {
   height: 95%; }
   .reveal .slide-canvas h2 {
     font-size: 96px; }
+  .reveal .slide-canvas .align-bottom {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0; }
 
 .reveal section p {
   font-weight: 300; }
@@ -478,6 +484,8 @@ body {
   left: 0; }
   .reveal section .credit > a {
     color: rgba(248, 248, 248, 0.06); }
+.reveal section code {
+  font-family: "Andale Mono", monospace; }
 .reveal section .biggie {
   font-size: 60px; }
 .reveal section .link--twitter {
@@ -523,8 +531,8 @@ body {
   max-width: 33em;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em; }
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; }
 .reveal section .article {
   text-align: left; }
 .reveal section .article-paragraph {
@@ -776,8 +784,8 @@ body {
 .reveal section .ratio-wrapper {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
   width: 640px;
   margin-left: auto;
   margin-right: auto;
@@ -1165,7 +1173,7 @@ body {
     outline: 1px solid #222222; }
   .reveal section .greybox-container[data-label]:before {
     content: attr(data-label);
-    font-family: monospace;
+    font-family: "Andale Mono", monospace;
     display: block;
     margin: .5em auto 1em;
     height: 1em;
@@ -1193,7 +1201,7 @@ body {
     position: relative; }
   .reveal section .greybox-region:before {
     content: attr(data-label);
-    font-family: monospace;
+    font-family: "Andale Mono", monospace;
     position: absolute;
     display: block;
     top: 0;

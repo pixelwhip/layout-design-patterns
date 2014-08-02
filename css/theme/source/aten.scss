@@ -36,7 +36,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
-@mixin guides($height: 2.5em) {
+@mixin guides($height: 1.25em) {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   padding-top: $height;
@@ -182,6 +182,14 @@ $selectionBackgroundColor: $magenta;
   h2 {
     font-size: 96px;
   }
+
+  .align-bottom {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 //
@@ -203,6 +211,10 @@ $selectionBackgroundColor: $magenta;
   > a {
     color: rgba($white, .06);
   }
+}
+
+code {
+  font-family: "Andale Mono", monospace;
 }
 
 .biggie {
@@ -289,8 +301,8 @@ pre {
   max-width: 33em;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .article {

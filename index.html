@@ -398,26 +398,66 @@
           </aside>
         </section>
 
-        <section data-state="state--default">
+        <section data-state="state--default" class="slide-canvas">
           <h4 class="class-name">Layout Naming Convention</h4>
           <div class="layout-wrapper">
-            <span id="naming--3-column" class="fragment"></span>
-            <span id="naming--sidebars-after" class="fragment"></span>
-            <span id="naming--sidebars-before" class="fragment"></span>
-            <span id="naming--triptych" class="fragment"></span>
+            <span id="naming--3-column" class="fragment" data-fragment-index="2"></span>
+            <span id="naming--sidebars-after" class="fragment" data-fragment-index="3"></span>
+            <span id="naming--sidebars-before" class="fragment" data-fragment-index="4"></span>
+            <span id="naming--triptych" class="fragment" data-fragment-index="5"></span>
             <div id="naming--layout" class="greybox greybox-container clearfix" data-label="Container">
               <div class="l-primary greybox-region" data-label=".l-primary"></div>
               <div class="l-secondary greybox-region" data-label=".l-secondary"></div>
               <div class="l-tertiary greybox-region" data-label=".l-tertiary"></div>
             </div>
           </div>
-          <pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
             <code class="xml">
   <div class="l--[modifier]">
     <div class="l-primary">...</div>
     <div class="l-secondary">...</div>
     <div class="l-tertiary">...</div>
   </div>
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .l--3-column {
+    > .l-primary   { @include span(4 at 1); }
+    > .l-secondary { @include span(4 at 5); }
+    > .l-tertiary  { @include span(4 at 9); }
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .l--sidebars-after {
+    > .l-primary   { @include span(6 at 1); }
+    > .l-secondary { @include span(3 at 7); }
+    > .l-tertiary  { @include span(3 at 10); }
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="4">
+            <code class="scss">
+  .l--sidebars-before {
+    > .l-primary   { @include span(6 at 7); }
+    > .l-secondary { @include span(3 at 1); }
+    > .l-tertiary  { @include span(3 at 4); }
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="5">
+            <code class="scss">
+  .l--triptych {
+    > .l-primary   { @include span(6 at 4); }
+    > .l-secondary { @include span(3 at 1); }
+    > .l-tertiary  { @include span(3 at 10); }
+  }
             </code>
           </pre>
 
@@ -493,8 +533,6 @@
                 <address class="quote-author">Christopher Alexander</address>
               </blockquote>
             <p class="article-paragraph">The novice by comparison, spends a great deal of his time trying to figure out what to do. He does this essentially because he knows that an action he takes now may cause unretractable problems a little further down the line; and if he is not careful, he will find himself with a joint that requires the shortening of some crucial member – at a stage when it is too late to shorten that member. The fear of these kinds of mistakes forces him to spend hours trying to figure ahead: and it forces him to work as far as possible to exact drawings because they will guarantee that he avoids these kinds of mistakes.</p>
-            <p class="article-paragraph">The difference between the novice and the master is simply that the novice has not learnt, yet, how to do things in such a way that he can afford to make small mistakes. The master knows that the sequence of his actions will always allow him to cover his mistakes a little further down the line. It is this simple but essential knowledge which gives the work of a master carpenter its wonderful, smooth, relaxed, and almost unconcerned simplicity.</p>
-
             </article>
           </div>
 
@@ -513,11 +551,11 @@
           </aside>
         </section>
 
-        <section data-state="state--example">
-          <span id="book-padding" class="fragment"></span>
-          <span id="book-width" class="fragment"></span>
-          <span id="book-pulled" class="fragment"></span>
-          <span id="book-fluid" class="fragment"></span>
+        <section data-state="state--example" class="slide-canvas">
+          <span id="book-padding" class="fragment" data-fragment-index="2"></span>
+          <span id="book-width" class="fragment" data-fragment-index="3"></span>
+          <span id="book-pulled" class="fragment" data-fragment-index="4"></span>
+          <span id="book-fluid" class="fragment" data-fragment-index="5"></span>
           <div class="book-wrapper">
             <article class="book book--teaser">
               <figure class="book-cover"><img class="book-image" src="img/cover-pattern-language.jpg" alt=""></figure>
@@ -526,14 +564,61 @@
               <p class="book-summary">At the core of these books is the idea that people should design for themselves their own houses, streets, and communities. This idea may be radical (it implies a radical transformation of the architectural profession) but it comes simply from the observation that most of the wonderful places of the world were not made by architects but by the people.</p>
             </article>
           </div>
-          <pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
             <code class="xml">
-              <article class="book book--teaser">
-                <figure class="book-cover">...</figure>
-                <h3 class="book-title">...</h3>
-                <address class="book-authors">...</address>
-                <p class="book-summary">...</p>
-              </article>
+  <article class="book book--teaser">
+    <figure class="book-cover">...</figure>
+    <h3 class="book-title">...</h3>
+    <address class="book-authors">...</address>
+    <p class="book-summary">...</p>
+  </article>
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .book--teaser {
+    padding-left: 10em;
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .book--teaser {
+    padding-left: 10em;
+  }
+  .book--teaser > .book-cover {
+    width: 8em;
+    float: left;
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="4">
+            <code class="scss">
+  .book--teaser {
+    padding-left: 10em;
+  }
+  .book--teaser > .book-cover {
+    float: left;
+    width: 8em;
+    margin-left: -10em;
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="5">
+            <code class="scss">
+  .book--teaser {
+    max-width: 32em;
+    padding-left: 10em;
+  }
+  .book--teaser > .book-cover {
+    float: left;
+    width: 8em;
+    margin-left: -10em;
+  }
             </code>
           </pre>
 
@@ -561,8 +646,8 @@
           </aside>
         </section>
 
-        <section data-state="state--example">
-          <span id="block-overflow" class="fragment"></span>
+        <section data-state="state--example" class="slide-canvas">
+          <span id="block-overflow" class="fragment" data-fragment-index="2"></span>
           <div class="block-wrapper">
             <div class="block">
               <h2 class="block-title">Layout Design Patterns</h2>
@@ -571,12 +656,22 @@
               </div>
             </div>
           </div>
-          <pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
             <code class="xml">
-              <div class="block">
-                <h2 class="block-title">...</h2>
-                <div class="block-content">...</div>
-              </div>
+  <div class="block">
+    <h2 class="block-title">...</h2>
+    <div class="block-content">...</div>
+  </div>
+            </code>
+          </pre>
+
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .block-title {
+    margin-right: -4em;
+    margin-left: -4em;
+  }
             </code>
           </pre>
           <aside class="notes">
@@ -588,9 +683,9 @@
           </aside>
         </section>
 
-        <section data-state="state--default">
+        <section data-state="state--default" class="slide-canvas" >
           <div class="layout-wrapper">
-            <span id="overflow-3-column--full" class="fragment"></span>
+            <span id="overflow-3-column--full" class="fragment" data-fragment-index="3"></span>
 
             <div id="overflow--layout" class="grid--3-column clearfix">
               <div class="grid-item"> <div class="greybox-region">Everyone is aware that most of the built environment today lacks a natural order, an order which presents itself very strongly in places that were built centuries ago.</div> </div>
@@ -598,13 +693,39 @@
               <div class="grid-item"> <div class="greybox-region">The more living patterns there are in a place - a room, a building, or a town - the more it comes to life as an entirety, the more it glows, the more it has that self-maintaining fire which is the quality without a name.</div> </div>
             </div>
           </div>
-          <pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
             <code class="xml">
-              <div class="grid--3-column">
-                <div class="grid-item">...</div>
-                <div class="grid-item">...</div>
-                <div class="grid-item">...</div>
-              </div>
+  <div class="l--3-columns">
+    <div class="l-column"></div>
+    <div class="l-column"></div>
+    <div class="l-column"></div>
+  </div>
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .l--3-columns > .l-column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.333%;
+    padding: 0 2em;
+  }
+            </code>
+          </pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .l--3-columns {
+    margin-right: -2em;
+    margin-left: -2em;
+  }
+
+  .l--3-columns > .l-column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.333%;
+    padding: 0 2em;
+  }
             </code>
           </pre>
           <aside class="notes">
@@ -612,24 +733,59 @@
           </aside>
         </section>
 
-        <section data-state="state--pattern">
+        <section data-state="state--pattern" class="slide-canvas">
           <h1 class="pattern-name">Intrinsic Ratios</h1>
           <p class="pattern-description">When the aspect ratio of an element is known, but the target size is not, use padding and absolute positioning to preserve the aspect ratio of an element.</p>
           <aside class="notes">
           </aside>
         </section>
 
-        <section data-state="state--example">
-          <span id="ratio-incorrect" class="fragment"></span>
-          <span id="ratio-padding" class="fragment"></span>
-          <span id="ratio-position" class="fragment"></span>
-          <span id="ratio-correct" class="fragment"></span>
+        <section data-state="state--example" class="slide-canvas">
+          <span id="ratio-incorrect" class="fragment" data-fragment-index="2"></span>
+          <span id="ratio-padding" class="fragment" data-fragment-index="3"></span>
+          <span id="ratio-position" class="fragment" data-fragment-index="4"></span>
+          <span id="ratio-correct" class="fragment" data-fragment-index="5"></span>
           <span id="ratio-correct-2" class="fragment"></span>
           <div class="ratio-wrapper">
             <div id="ratio--layout" class="video-container">
               <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/OFzXaFbxDcM?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
+
+<pre class="fragment current-visible align-bottom" data-fragment-index="1">
+  <code class="xml">
+  <div class="video">
+    <iframe class="video-inner"></iframe>
+  </div>
+  </code>
+</pre>
+
+          <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .video {
+    position: relative;
+    padding-top: 62.25%;  // Video height / width.
+    height: 0;
+  }
+            </code>
+          </pre>
+
+                    <pre class="fragment current-visible align-bottom" data-fragment-index="4">
+            <code class="scss">
+  .video {
+    position: relative;
+    padding-top: 62.25%;  // Video height / width.
+    height: 0;
+  }
+
+  .video-inner {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+            </code>
+          </pre>
           <aside class="notes">
             This is most often used when dealing with iframes or embedded videos.  max-width: 100% and height of auto work because the browser can determine the intrinsic ratio of an img from the file itself.
 
@@ -834,12 +990,12 @@
           </aside>
         </section>
 
-        <section data-state="state--default">
+        <section data-state="state--default" class="slide-canvas">
           <div class="layout-wrapper">
-            <span id="float--3up" class="fragment"></span>
-            <span id="float--floated" class="fragment"></span>
-            <span id="float--padded" class="fragment"></span>
-            <span id="float--2up" class="fragment"></span>
+            <span id="float--3up" class="fragment" data-fragment-index="2"></span>
+            <span id="float--floated" class="fragment" data-fragment-index="3"></span>
+            <span id="float--padded" class="fragment" data-fragment-index="4"></span>
+            <span id="float--2up" class="fragment" data-fragment-index="5"></span>
 
             <div id="float--layout" class="greybox greybox-container clearfix" data-label="Float">
               <div class="l-primary greybox-region grid-item" data-label=".l-primary"></div>
@@ -847,32 +1003,67 @@
               <div class="l-tertiary greybox-region grid-item" data-label=".l-tertiary"></div>
             </div>
           </div>
-          <pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
             <code class="xml">
-              <div class="l--[modifier]">
-                <div class="l-secondary grid-item">...</div>
-                <div class="l-primary grid-item">...</div>
-                <div class="l-tertiary grid-item">...</div>
+              <div class="l--3-columns">
+                <div class="l-column l-secondary">...</div>
+                <div class="l-column l-primary">...</div>
+                <div class="l-column l-tertiary">...</div>
               </div>
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .l--3-columns > .l-column {
+    width: 33.333%;
+  }
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .l--3-columns > .l-column {
+    width: 33.333%;
+    float: left;
+  }
+            </code>
+          </pre>
+            <pre class="fragment current-visible align-bottom" data-fragment-index="4">
+            <code class="scss">
+  .l--3-columns > .l-column {
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 2em;
+  }
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="5">
+            <code class="scss">
+  .l--3-columns > .l-column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 2em;
+  }
             </code>
           </pre>
           <aside class="notes">
           </aside>
         </section>
 
-        <section data-state="state--pattern">
+        <section data-state="state--pattern" class="slide">
           <h1 class="pattern-name">Isolation Layout</h1>
           <p class="pattern-description">Given a series of floated elements, give each a negative trailing margin in order to reset the orientation of the following element.</p>
           <aside class="notes">
           </aside>
         </section>
 
-        <section data-state="state--default">
+        <section data-state="state--default" class="slide-canvas">
           <div class="layout-wrapper">
-            <span id="isolate--primary" class="fragment"></span>
-            <span id="isolate--secondary" class="fragment"></span>
-            <span id="isolate--tertiary" class="fragment"></span>
-            <span id="isolate--rows" class="fragment"></span>
+            <span id="isolate--primary" class="fragment" data-fragment-index="2"></span>
+            <span id="isolate--secondary" class="fragment" data-fragment-index="3"></span>
+            <span id="isolate--tertiary" class="fragment" data-fragment-index="4"></span>
+            <span id="isolate--rows" class="fragment" data-fragment-index="5"></span>
 
             <div id="isolate--layout" class="greybox greybox-container clearfix" data-label="Isolate">
               <div class="l-primary greybox-region grid-item" data-label=".l-primary"></div>
@@ -880,13 +1071,87 @@
               <div class="l-tertiary greybox-region grid-item" data-label=".l-tertiary"></div>
             </div>
           </div>
-          <pre>
-            <code class="xml">
-              <div class="l--[modifier]">
-                <div class="l-primary grid-item">...</div>
-                <div class="l-secondary grid-item">...</div>
-                <div class="l-tertiary grid-item">...</div>
-              </div>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="1">
+            <code class="scss">
+  .l--isolation {
+    > .l-primary {
+      width: 33.333%;
+    }
+    > .l-secondary {
+      width: 33.333%;
+    }
+    > .l-tertiary {
+      width: 33.333%;
+    }
+  }
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="2">
+            <code class="scss">
+  .l--isolation {
+    > .l-primary {
+      width: 33.333%;
+      margin-right: -33.333%;
+    }
+    > .l-secondary {
+      width: 33.333%;
+      margin-right: -33.333%;
+    }
+    > .l-tertiary {
+      width: 33.333%;
+    }
+  }
+}
+            </code>
+          </pre>
+  <pre class="fragment current-visible align-bottom" data-fragment-index="3">
+            <code class="scss">
+  .l--isolation {
+    > .l-primary {
+      width: 33.333%;
+      margin: 0 -100% 0 66.666%;  // margin-right: -1 * (margin-left + width)
+    }
+    > .l-secondary {
+      width: 25%;
+      margin: 0 -50% 0 25%;  // margin-right: -1 * (margin-left + width)
+    }
+    > .l-tertiary {
+      width: 33.333%;
+    }
+  }
+}
+            </code>
+          </pre>
+  <pre class="fragment current-visible align-bottom" data-fragment-index="4">
+            <code class="scss">
+  .l--isolation {
+    > .l-primary {
+      width: 42%;
+      margin: 0 -100% 0 58%;  // margin-right: -1 * (margin-left + width)
+    }
+    > .l-secondary {
+      width: 33.333%;
+      margin-right: -33.333%;
+    }
+    > .l-tertiary {
+      width: 33.333%;
+    }
+  }
+}
+            </code>
+          </pre>
+          <pre class="fragment current-visible align-bottom" data-fragment-index="5">
+            <code class="scss">
+  .l--isolation {
+    > .l-primary   { float: left; }
+    > .l-secondary { float: right; }
+
+    > .l-tertiary {
+      clear: left;
+      float: left;
+    }
+  }
+}
             </code>
           </pre>
           <aside class="notes">
@@ -1056,8 +1321,7 @@ $variables[theme_hook_suggestions][] = 'node__[whatever]';
         </section>
 
         <section data-state="state--blue" >
-          <p class="biggie">Help make this better.</p>
-          <a href="https://austin2014.drupal.org/node/2958">https://austin2014.drupal.org/node/2958</a>
+          <p class="biggie">Thank you.</p>
           <aside class="notes">
           </aside>
         </section>

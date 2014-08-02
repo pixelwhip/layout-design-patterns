@@ -86,7 +86,7 @@
 
   &[data-label]:before {
     content: attr(data-label);
-    font-family: monospace;
+    font-family: "Andale Mono", monospace;
     display: block;
     margin: .5em auto 1em;
     height: 1em;
@@ -121,7 +121,7 @@
 
   &:before {
     content: attr(data-label);
-    font-family: monospace;
+    font-family: "Andale Mono", monospace;
     position: absolute;
     display: block;
     top: 0;
