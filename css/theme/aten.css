@@ -10,51 +10,6 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Raleway Thin"), local("Raleway-Thin"), url(../../lib/font/Raleway/Raleway-Thin.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 200;
-  src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url(../../lib/font/Raleway/Raleway-ExtraLight.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Raleway Light"), local("Raleway-Light"), url(../../lib/font/Raleway/Raleway-Light.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Raleway"), url(../../lib/font/Raleway/Raleway-Regular.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: local("Raleway Medium"), local("Raleway-Medium"), url(../../lib/font/Raleway/Raleway-Medium.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url(../../lib/font/Raleway/Raleway-SemiBold.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Raleway Bold"), local("Raleway-Bold"), url(../../lib/font/Raleway/Raleway-Bold.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url(../../lib/font/Raleway/Raleway-ExtraBold.otf) format("otf"); }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Raleway Heavy"), local("Raleway-Heavy"), url(../../lib/font/Raleway/Raleway-Heavy.otf) format("otf"); }
-@font-face {
   font-family: 'BLOKK';
   src: url("../../lib/font/blokk/BLOKKNeue-Regular.eot");
   src: url("../../lib/font/blokk/BLOKKNeue-Regular.eot?#iefix") format("embedded-opentype"), url("../../lib/font/blokk/BLOKKNeue-Regular.woff") format("woff"), url("../../lib/font/blokk/BLOKKNeue-Regular.svg#BLOKKNeue-Regular") format("svg");
@@ -82,7 +37,7 @@ body {
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #404042; }
+  color: #2d3942; }
 
 ::-moz-selection {
   color: white;
@@ -104,7 +59,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #cc0000;
+  color: #0a4664;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -190,117 +145,6 @@ body {
 .reveal .slide-number {
   color: #f98700; }
 
-.state--dcon .reveal section .dcon-title {
-  color: #81393c;
-  font-family: 'Raleway', 'League Gothic', Impact, sans-serif;
-  font-size: 80px;
-  margin-top: 3em;
-  text-transform: none; }
-
-.state--red {
-  /*********************************************
-   * GLOBAL STYLES
-   *********************************************/
-  /*********************************************
-   * HEADERS
-   *********************************************/
-  /*********************************************
-   * LINKS
-   *********************************************/
-  /*********************************************
-   * IMAGES
-   *********************************************/
-  /*********************************************
-   * NAVIGATION CONTROLS
-   *********************************************/
-  /*********************************************
-   * PROGRESS BAR
-   *********************************************/
-  /*********************************************
-   * SLIDE NUMBER
-   *********************************************/ }
-  .state--red body {
-    background: #cc0000;
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ff3333), color-stop(100%, #cc0000));
-    background: -webkit-radial-gradient(center, circle cover, #ff3333 0%, #cc0000 100%);
-    background: radial-gradient(center, circle cover, #ff3333 0%, #cc0000 100%);
-    background-color: #cc0000; }
-  .state--red .reveal {
-    font-family: "Lato", sans-serif;
-    font-size: 36px;
-    font-weight: normal;
-    letter-spacing: -0.02em;
-    color: #222222; }
-  .state--red ::-moz-selection {
-    color: white;
-    background: #d33682;
-    text-shadow: none; }
-  .state--red ::selection {
-    color: white;
-    background: #d33682;
-    text-shadow: none; }
-  .state--red .reveal h1,
-  .state--red .reveal h2,
-  .state--red .reveal h3,
-  .state--red .reveal h4,
-  .state--red .reveal h5,
-  .state--red .reveal h6 {
-    margin: 0 0 20px 0;
-    color: #f8f8f8;
-    font-family: "League Gothic", Impact, sans-serif;
-    line-height: 0.9em;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: none;
-    -webkit-transition: color .15s ease;
-    transition: color .15s ease; }
-  .state--red .reveal h1 {
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
-  .state--red .reveal a:not(.image) {
-    color: #fcc318;
-    text-decoration: none;
-    -webkit-transition: color .15s ease;
-    transition: color .15s ease; }
-  .state--red .reveal a:not(.image):hover {
-    color: #fddd7d;
-    text-shadow: none;
-    border: none; }
-  .state--red .reveal .roll span:after {
-    color: #fff;
-    background: #c59403; }
-  .state--red .reveal section img {
-    margin: 15px 0px;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear; }
-  .state--red .reveal .controls div.navigate-left,
-  .state--red .reveal .controls div.navigate-left.enabled {
-    border-right-color: #fcc318; }
-  .state--red .reveal .controls div.navigate-right,
-  .state--red .reveal .controls div.navigate-right.enabled {
-    border-left-color: #fcc318; }
-  .state--red .reveal .controls div.navigate-up,
-  .state--red .reveal .controls div.navigate-up.enabled {
-    border-bottom-color: #fcc318; }
-  .state--red .reveal .controls div.navigate-down,
-  .state--red .reveal .controls div.navigate-down.enabled {
-    border-top-color: #fcc318; }
-  .state--red .reveal .controls div.navigate-left.enabled:hover {
-    border-right-color: #fddd7d; }
-  .state--red .reveal .controls div.navigate-right.enabled:hover {
-    border-left-color: #fddd7d; }
-  .state--red .reveal .controls div.navigate-up.enabled:hover {
-    border-bottom-color: #fddd7d; }
-  .state--red .reveal .controls div.navigate-down.enabled:hover {
-    border-top-color: #fddd7d; }
-  .state--red .reveal .progress {
-    background: rgba(0, 0, 0, 0.2); }
-  .state--red .reveal .progress span {
-    background: #fcc318;
-    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-  .state--red .reveal .slide-number {
-    color: #fcc318; }
-
 .state--blue {
   /*********************************************
    * GLOBAL STYLES
@@ -324,11 +168,11 @@ body {
    * SLIDE NUMBER
    *********************************************/ }
   .state--blue body {
-    background: #006699;
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #00aaff), color-stop(100%, #006699));
-    background: -webkit-radial-gradient(center, circle cover, #00aaff 0%, #006699 100%);
-    background: radial-gradient(center, circle cover, #00aaff 0%, #006699 100%);
-    background-color: #006699; }
+    background: #2d3942;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #566d7f), color-stop(100%, #2d3942));
+    background: -webkit-radial-gradient(center, circle cover, #566d7f 0%, #2d3942 100%);
+    background: radial-gradient(center, circle cover, #566d7f 0%, #2d3942 100%);
+    background-color: #2d3942; }
   .state--blue .reveal {
     font-family: "Lato", sans-serif;
     font-size: 36px;
@@ -405,110 +249,6 @@ body {
   .state--blue .reveal .slide-number {
     color: #fcc318; }
 
-.state--yellow {
-  /*********************************************
-   * GLOBAL STYLES
-   *********************************************/
-  /*********************************************
-   * HEADERS
-   *********************************************/
-  /*********************************************
-   * LINKS
-   *********************************************/
-  /*********************************************
-   * IMAGES
-   *********************************************/
-  /*********************************************
-   * NAVIGATION CONTROLS
-   *********************************************/
-  /*********************************************
-   * PROGRESS BAR
-   *********************************************/
-  /*********************************************
-   * SLIDE NUMBER
-   *********************************************/ }
-  .state--yellow body {
-    background: orange;
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fcc318), color-stop(100%, orange));
-    background: -webkit-radial-gradient(center, circle cover, #fcc318 0%, orange 100%);
-    background: radial-gradient(center, circle cover, #fcc318 0%, orange 100%);
-    background-color: #fcc318; }
-  .state--yellow .reveal {
-    font-family: "Lato", sans-serif;
-    font-size: 36px;
-    font-weight: normal;
-    letter-spacing: -0.02em;
-    color: #222222; }
-  .state--yellow ::-moz-selection {
-    color: white;
-    background: #d33682;
-    text-shadow: none; }
-  .state--yellow ::selection {
-    color: white;
-    background: #d33682;
-    text-shadow: none; }
-  .state--yellow .reveal h1,
-  .state--yellow .reveal h2,
-  .state--yellow .reveal h3,
-  .state--yellow .reveal h4,
-  .state--yellow .reveal h5,
-  .state--yellow .reveal h6 {
-    margin: 0 0 20px 0;
-    color: #f8f8f8;
-    font-family: "League Gothic", Impact, sans-serif;
-    line-height: 0.9em;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: none;
-    -webkit-transition: color .15s ease;
-    transition: color .15s ease; }
-  .state--yellow .reveal h1 {
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
-  .state--yellow .reveal a:not(.image) {
-    color: #cc0000;
-    text-decoration: none;
-    -webkit-transition: color .15s ease;
-    transition: color .15s ease; }
-  .state--yellow .reveal a:not(.image):hover {
-    color: #ff3333;
-    text-shadow: none;
-    border: none; }
-  .state--yellow .reveal .roll span:after {
-    color: #fff;
-    background: maroon; }
-  .state--yellow .reveal section img {
-    margin: 15px 0px;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear; }
-  .state--yellow .reveal .controls div.navigate-left,
-  .state--yellow .reveal .controls div.navigate-left.enabled {
-    border-right-color: #cc0000; }
-  .state--yellow .reveal .controls div.navigate-right,
-  .state--yellow .reveal .controls div.navigate-right.enabled {
-    border-left-color: #cc0000; }
-  .state--yellow .reveal .controls div.navigate-up,
-  .state--yellow .reveal .controls div.navigate-up.enabled {
-    border-bottom-color: #cc0000; }
-  .state--yellow .reveal .controls div.navigate-down,
-  .state--yellow .reveal .controls div.navigate-down.enabled {
-    border-top-color: #cc0000; }
-  .state--yellow .reveal .controls div.navigate-left.enabled:hover {
-    border-right-color: #ff3333; }
-  .state--yellow .reveal .controls div.navigate-right.enabled:hover {
-    border-left-color: #ff3333; }
-  .state--yellow .reveal .controls div.navigate-up.enabled:hover {
-    border-bottom-color: #ff3333; }
-  .state--yellow .reveal .controls div.navigate-down.enabled:hover {
-    border-top-color: #ff3333; }
-  .state--yellow .reveal .progress {
-    background: rgba(0, 0, 0, 0.2); }
-  .state--yellow .reveal .progress span {
-    background: #cc0000;
-    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-  .state--yellow .reveal .slide-number {
-    color: #cc0000; }
-
 .state--dark {
   /*********************************************
    * GLOBAL STYLES
@@ -532,11 +272,11 @@ body {
    * SLIDE NUMBER
    *********************************************/ }
   .state--dark body {
-    background: #222222;
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
-    background: -webkit-radial-gradient(center, circle cover, #3c3c3c 0%, #222222 100%);
-    background: radial-gradient(center, circle cover, #3c3c3c 0%, #222222 100%);
-    background-color: #222222; }
+    background: #2d3942;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #425360), color-stop(100%, #2d3942));
+    background: -webkit-radial-gradient(center, circle cover, #425360 0%, #2d3942 100%);
+    background: radial-gradient(center, circle cover, #425360 0%, #2d3942 100%);
+    background-color: #2d3942; }
   .state--dark .reveal {
     font-family: "Lato", sans-serif;
     font-size: 36px;
@@ -614,14 +354,130 @@ body {
     color: #fcc318; }
 
 .state--overlay .slide-background {
-  background-color: #006699;
+  background-color: #598ba5;
   background-blend-mode: multiply; }
+
+.state--luminosity {
+  /*********************************************
+   * GLOBAL STYLES
+   *********************************************/
+  /*********************************************
+   * HEADERS
+   *********************************************/
+  /*********************************************
+   * LINKS
+   *********************************************/
+  /*********************************************
+   * IMAGES
+   *********************************************/
+  /*********************************************
+   * NAVIGATION CONTROLS
+   *********************************************/
+  /*********************************************
+   * PROGRESS BAR
+   *********************************************/
+  /*********************************************
+   * SLIDE NUMBER
+   *********************************************/ }
+  .state--luminosity body {
+    background: #e6e6e6;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #2d3942), color-stop(100%, #e6e6e6));
+    background: -webkit-radial-gradient(center, circle cover, #2d3942 0%, #e6e6e6 100%);
+    background: radial-gradient(center, circle cover, #2d3942 0%, #e6e6e6 100%);
+    background-color: #2d3942; }
+  .state--luminosity .reveal {
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    color: #f8f8f8; }
+  .state--luminosity ::-moz-selection {
+    color: white;
+    background: #d33682;
+    text-shadow: none; }
+  .state--luminosity ::selection {
+    color: white;
+    background: #d33682;
+    text-shadow: none; }
+  .state--luminosity .reveal h1,
+  .state--luminosity .reveal h2,
+  .state--luminosity .reveal h3,
+  .state--luminosity .reveal h4,
+  .state--luminosity .reveal h5,
+  .state--luminosity .reveal h6 {
+    margin: 0 0 20px 0;
+    color: #f8f8f8;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: none;
+    -webkit-transition: color .15s ease;
+    transition: color .15s ease; }
+  .state--luminosity .reveal h1 {
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  .state--luminosity .reveal a:not(.image) {
+    color: #fcc318;
+    text-decoration: none;
+    -webkit-transition: color .15s ease;
+    transition: color .15s ease; }
+  .state--luminosity .reveal a:not(.image):hover {
+    color: #fddd7d;
+    text-shadow: none;
+    border: none; }
+  .state--luminosity .reveal .roll span:after {
+    color: #fff;
+    background: #c59403; }
+  .state--luminosity .reveal section img {
+    margin: 15px 0px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear; }
+  .state--luminosity .reveal .controls div.navigate-left,
+  .state--luminosity .reveal .controls div.navigate-left.enabled {
+    border-right-color: #fcc318; }
+  .state--luminosity .reveal .controls div.navigate-right,
+  .state--luminosity .reveal .controls div.navigate-right.enabled {
+    border-left-color: #fcc318; }
+  .state--luminosity .reveal .controls div.navigate-up,
+  .state--luminosity .reveal .controls div.navigate-up.enabled {
+    border-bottom-color: #fcc318; }
+  .state--luminosity .reveal .controls div.navigate-down,
+  .state--luminosity .reveal .controls div.navigate-down.enabled {
+    border-top-color: #fcc318; }
+  .state--luminosity .reveal .controls div.navigate-left.enabled:hover {
+    border-right-color: #fddd7d; }
+  .state--luminosity .reveal .controls div.navigate-right.enabled:hover {
+    border-left-color: #fddd7d; }
+  .state--luminosity .reveal .controls div.navigate-up.enabled:hover {
+    border-bottom-color: #fddd7d; }
+  .state--luminosity .reveal .controls div.navigate-down.enabled:hover {
+    border-top-color: #fddd7d; }
+  .state--luminosity .reveal .progress {
+    background: rgba(0, 0, 0, 0.2); }
+  .state--luminosity .reveal .progress span {
+    background: #fcc318;
+    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+  .state--luminosity .reveal .slide-number {
+    color: #fcc318; }
+  .state--luminosity .slide-background {
+    background-color: #598ba5;
+    background-blend-mode: luminosity; }
 
 .reveal .slide-canvas {
   height: 95%; }
+  .reveal .slide-canvas h2 {
+    font-size: 96px; }
 
 .reveal section p {
   font-weight: 300; }
+.reveal section .credit {
+  position: absolute;
+  font-size: .5em;
+  bottom: 0;
+  left: 0; }
+  .reveal section .credit > a {
+    color: rgba(248, 248, 248, 0.06); }
 .reveal section .biggie {
   font-size: 60px; }
 .reveal section .link--twitter {
@@ -680,7 +536,7 @@ body {
 .reveal section .quote-author {
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #cc0000; }
+  color: #0d6b9c; }
 .reveal section .quote-author {
   text-align: right;
   margin-top: 1.2em; }
@@ -695,8 +551,8 @@ body {
   width: 100%;
   font-weight: 700;
   padding: .8em 0;
-  border-top: 3px solid #cc0000;
-  border-bottom: 3px solid #cc0000;
+  border-top: 3px solid #0d6b9c;
+  border-bottom: 3px solid #0d6b9c;
   float: left;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -859,13 +715,13 @@ body {
   margin-bottom: 12px; }
 .reveal section #book-padding.visible ~ .book-wrapper .book--teaser {
   padding-left: 180px;
-  -webkit-box-shadow: 180px 0 0 0 rgba(0, 102, 153, 0.2) inset;
-  box-shadow: 180px 0 0 0 rgba(0, 102, 153, 0.2) inset; }
+  -webkit-box-shadow: 180px 0 0 0 rgba(13, 107, 156, 0.2) inset;
+  box-shadow: 180px 0 0 0 rgba(13, 107, 156, 0.2) inset; }
 .reveal section #book-width.visible ~ .book-wrapper .book-cover {
   width: 140px; }
 .reveal section #book-pulled.visible ~ .book-wrapper .book--teaser {
-  -webkit-box-shadow: 180px 0 0 0 rgba(0, 102, 153, 0) inset;
-  box-shadow: 180px 0 0 0 rgba(0, 102, 153, 0) inset; }
+  -webkit-box-shadow: 180px 0 0 0 rgba(13, 107, 156, 0) inset;
+  box-shadow: 180px 0 0 0 rgba(13, 107, 156, 0) inset; }
 .reveal section #book-pulled.visible ~ .book-wrapper .book-cover {
   margin-left: -180px; }
 .reveal section #book-fluid.visible ~ .book-wrapper {
@@ -884,7 +740,7 @@ body {
   transition: all 1.5s ease; }
 .reveal section .block-title {
   font-family: "Lato", "League Gothic", sans-serif;
-  background-color: #cc0000;
+  background-color: #0d6b9c;
   color: white;
   text-transform: none;
   font-size: 36px;
@@ -994,8 +850,8 @@ body {
     .reveal section .grid--3-column > .grid-item > .greybox-region {
       margin-left: -30px;
       margin-right: -30px;
-      -webkit-box-shadow: 30px 0 0 0 rgba(0, 102, 153, 0.2) inset, -30px 0 0 0 rgba(0, 102, 153, 0.2) inset;
-      box-shadow: 30px 0 0 0 rgba(0, 102, 153, 0.2) inset, -30px 0 0 0 rgba(0, 102, 153, 0.2) inset;
+      -webkit-box-shadow: 30px 0 0 0 rgba(13, 107, 156, 0.2) inset, -30px 0 0 0 rgba(13, 107, 156, 0.2) inset;
+      box-shadow: 30px 0 0 0 rgba(13, 107, 156, 0.2) inset, -30px 0 0 0 rgba(13, 107, 156, 0.2) inset;
       padding: 0 30px;
       background-color: rgba(34, 34, 34, 0);
       min-height: 13em;
@@ -1315,7 +1171,7 @@ body {
     height: 1em;
     text-align: center;
     font-size: 2rem;
-    color: #404042; }
+    color: #2d3942; }
 .reveal section .greybox-region {
   background-color: rgba(34, 34, 34, 0.3);
   min-height: 8em;
@@ -1324,7 +1180,7 @@ body {
   -webkit-transition: all 1s ease;
   transition: all 1s ease; }
   .reveal section .greybox-region:nth-child(1) {
-    background-color: rgba(0, 102, 153, 0.3); }
+    background-color: rgba(13, 107, 156, 0.3); }
   .reveal section .greybox-region:nth-child(2) {
     background-color: rgba(204, 0, 0, 0.3); }
   .reveal section .greybox-region:nth-child(3) {
@@ -1348,7 +1204,7 @@ body {
     height: 1em;
     text-align: center;
     font-size: 1.2rem;
-    color: #404042; }
+    color: #2d3942; }
 
 #about .ss-twitter {
   margin-left: 50px;

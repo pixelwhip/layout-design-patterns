@@ -25,61 +25,6 @@
 }
 
 @font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(../../lib/font/Raleway/Raleway-Thin.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(../../lib/font/Raleway/Raleway-ExtraLight.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(../../lib/font/Raleway/Raleway-Light.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(../../lib/font/Raleway/Raleway-Regular.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(../../lib/font/Raleway/Raleway-Medium.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(../../lib/font/Raleway/Raleway-SemiBold.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(../../lib/font/Raleway/Raleway-Bold.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(../../lib/font/Raleway/Raleway-ExtraBold.otf) format('otf');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Raleway Heavy'), local('Raleway-Heavy'), url(../../lib/font/Raleway/Raleway-Heavy.otf) format('otf');
-}
-
-@font-face {
   font-family: 'BLOKK';
   src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot');
   src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),
@@ -90,7 +35,6 @@
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-
 
 @mixin guides($height: 2.5em) {
   border-left: 1px solid #ccc;
@@ -131,15 +75,30 @@ $white:         #f8f8f8;
 $yellow:        #fcc318;
 $red:           #cc0000;
 $blue:          #006699;
-$blue--dark:    #004466;
-$blue--white:   #ccebf5;
+$blue-dark:    #004466;
+$blue-white:   #ccebf5;
+$orange:        #f98700;
+$orange--dark:  #f64b00;
+
+// Blueprint color scheme
+$black:         #222222;
+$gray-dark:     #2D3942;
+$gray:          #999999;
+$gray-white:    #DDC1E8;
+$white:         #f8f8f8;
+$yellow:        #fcc318;
+$red:           #cc0000;
+$blue:          #0D6B9C;
+$blue-light:    #598BA5;
+$blue-dark:     #0A4664;
+$blue-white:    #ccebf5;
 $orange:        #f98700;
 $orange--dark:  #f64b00;
 
 
 // Override theme settings (see ../template/settings.scss)
 $mainColor: $gray-dark;
-$headingColor: $red;
+$headingColor: $blue-dark;
 $headingTextShadow: none;
 $backgroundColor: $white;
 $linkColor: $orange;
@@ -151,8 +110,6 @@ $selectionBackgroundColor: $magenta;
 	@include radial-gradient( rgba(lighten($gray, 30%) ,1), rgba($backgroundColor, 1) );
 }
 
-
-
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
@@ -161,55 +118,11 @@ $selectionBackgroundColor: $magenta;
 // States
 //
 
-
-// Drupalcon
-// $mainColor: rgb(103, 76, 54);
-// $headingColor: ;
-// $headingTextShadow: none;
-// $backgroundColor: ;
-// $linkColor: rgb(68, 68, 68);
-// $linkColorHover: lighten( $linkColor, 20% );
-// $selectionBackgroundColor: $magenta;
-
-.state--dcon {
-  .reveal section {
-    .dcon-title {
-      color: rgb(129, 57, 60);
-      font-family: 'Raleway', 'League Gothic', Impact, sans-serif;
-      font-size: 80px;
-      margin-top: 3em;
-      text-transform: none;
-    }
-  }
-}
-
-
-// Red
-  $mainColor: $black;
-  $headingColor: $white;
-  $headingTextShadow: none;
-  $backgroundColor: $red;
-  $linkColor: $yellow;
-  $linkColorHover: lighten( $linkColor, 20% );
-  $selectionBackgroundColor: $magenta;
-
-.state--red {
-  // Override theme settings (see ../template/settings.scss)
-
-
-  // Background generator
-  @mixin bodyBackground() {
-    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 20%),1) );
-  }
-
-  @import "../template/theme";
-}
-
 // Blue
   $mainColor: $white;
   $headingColor: $white;
   $headingTextShadow: none;
-  $backgroundColor: $blue;
+  $backgroundColor: $gray-dark;
   $linkColor: $yellow;
   $linkColorHover: lighten( $linkColor, 20% );
   $selectionBackgroundColor: $magenta;
@@ -226,32 +139,11 @@ $selectionBackgroundColor: $magenta;
   @import "../template/theme";
 }
 
-// Yellow
-  $mainColor: $black;
-  $headingColor: $white;
-  $headingTextShadow: none;
-  $backgroundColor: $yellow;
-  $linkColor: $red;
-  $linkColorHover: lighten( $linkColor, 20% );
-  $selectionBackgroundColor: $magenta;
-
-.state--yellow {
-  // Override theme settings (see ../template/settings.scss)
-
-
-  // Background generator
-  @mixin bodyBackground() {
-    @include radial-gradient( rgba(orange,1), rgba(lighten($backgroundColor, 0),1) );
-  }
-
-  @import "../template/theme";
-}
-
 // Dark
   $mainColor: $white;
   $headingColor: $white;
   $headingTextShadow: none;
-  $backgroundColor: $black;
+  $backgroundColor: $gray-dark;
   $linkColor: $yellow;
   $linkColorHover: lighten( $linkColor, 20% );
   $selectionBackgroundColor: $magenta;
@@ -269,14 +161,27 @@ $selectionBackgroundColor: $magenta;
 
 .state--overlay {
   .slide-background {
-    background-color: $blue;
+    background-color: $blue-light;
     background-blend-mode: multiply;
+  }
+}
+
+.state--luminosity {
+  @import "../template/theme";
+
+  .slide-background {
+    background-color: $blue-light;
+    background-blend-mode: luminosity;
   }
 }
 
 // wrap everything in .reveal section to overcome specificity
 .reveal .slide-canvas {
   height: 95%;
+
+  h2 {
+    font-size: 96px;
+  }
 }
 
 //
@@ -288,6 +193,17 @@ $selectionBackgroundColor: $magenta;
  p {
   font-weight: 300;
  }
+
+ .credit {
+  position: absolute;
+  font-size: .5em;
+  bottom: 0;
+  left: 0;
+
+  > a {
+    color: rgba($white, .06);
+  }
+}
 
 .biggie {
   font-size: 60px;
@@ -391,7 +307,7 @@ pre {
 .quote,
 .quote-author {
   box-shadow: none;
-  color: $red;
+  color: $blue;
 }
 
 .quote-author {
@@ -410,8 +326,8 @@ pre {
   width: 100%;
   font-weight: 700;
   padding: .8em 0;
-  border-top: 3px solid $red;
-  border-bottom: 3px solid $red;
+  border-top: 3px solid $blue;
+  border-bottom: 3px solid $blue;
   float: left;
   transition: all 1s ease;
   letter-spacing: .01em;
@@ -647,12 +563,12 @@ $susy: (
 
 .block-title {
   font-family: "Lato", "League Gothic", sans-serif;
-  background-color: $red;
+  background-color: $blue;
   color: white;
   text-transform: none;
   font-size: 36px;
   padding: 18px 24px;
-   transition: all 1s ease;
+  transition: all 1s ease;
   margin-bottom: 0;
   position: relative;
 
