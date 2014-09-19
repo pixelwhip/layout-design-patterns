@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 44160,
+				"buffer_size": 56590,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "css/theme/source/aten.scss",
 			"settings":
 			{
-				"buffer_size": 20490,
+				"buffer_size": 18089,
 				"line_ending": "Unix"
 			}
 		},
@@ -941,6 +941,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"constrained",
 			"primary",
 			"gh",
 			"context",
@@ -1067,8 +1068,7 @@
 			"cpr_playlist.add_picker_close_button",
 			"defaul",
 			"onRender",
-			"pickat",
-			"moment"
+			"pickat"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1150,7 +1150,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1158,15 +1158,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 44160,
+						"buffer_size": 56590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8048,
-								8048
+								16280,
+								16650
 							]
 						],
 						"settings":
@@ -1266,7 +1266,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4190.0,
+						"translation.y": 9032.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1276,15 +1276,15 @@
 					"file": "css/theme/source/aten.scss",
 					"settings":
 					{
-						"buffer_size": 20490,
+						"buffer_size": 18089,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11435,
-								11435
+								12167,
+								12167
 							]
 						],
 						"settings":
@@ -1383,7 +1383,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11672.0,
+						"translation.y": 14289.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1495,7 +1495,9 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
