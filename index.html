@@ -115,13 +115,13 @@
             "Common solutions to reoccurring problems within a given context"
           </aside>
         </section>
-
+<!--
         <section  data-state="state--blue">
           <h1>Example</h1>
 
           <aside class="notes">
           </aside>
-        </section>
+        </section> -->
 
         <section  data-state="state--blue">
           <p class="biggie">Reoccurring <strong>Problem</strong></p>
@@ -167,10 +167,8 @@
         <section  data-state="state--blue">
           <p class="biggie">Given <strong>Context</strong></p>
           <div class="fragment">
-            <p>Are you allergic to amazing food?</p>
-            <p>Are tacos readily available?</p>
-            <p>Do you know how to make tacos?</p>
-            <p>Do you have the ingredients?</p>
+            <p>You like tacos.</p>
+            <p>You can make or buy tacos.</p>
           </div>
 
           <aside class="notes">
@@ -206,6 +204,7 @@
           <h2>CSS Layout Properties</h2>
           <div class="properties-wrapper">
             <ul class="properties">
+              <!-- <li><h3>Flow</h3></li> -->
               <li>display</li>
               <li>flex</li>
               <li>float</li>
@@ -213,6 +212,7 @@
               <li>overflow</li>
             </ul>
             <ul class="properties">
+              <!-- <li><h3>Positioning</h3></li> -->
               <li>position</li>
               <li>top</li>
               <li>right</li>
@@ -221,10 +221,11 @@
               <li>z-index</li>
             </ul>
             <ul class="properties">
+              <!-- <li><h3>Box Model</h3></li> -->
               <li>box-sizing</li>
-              <li>margin</li>
               <li>border-width</li>
               <li>padding</li>
+              <li>margin</li>
               <li>width</li>
               <li>height</li>
             </ul>
@@ -1344,18 +1345,28 @@ $variables[theme_hook_suggestions][] = 'node__[whatever]';
             <img class="profile-image" src="img/christopher-alexander.png" alt="Christopher Alexander" >
           </div>
           <aside class="notes">
-            <p>The concept didn't originate from graphic design or computer science. It actually comes from Architecture.</p>
+            <p>The concept of design patterns didn't originate from graphic design or computer science. It actually comes from Architecture.</p>
 
-            <p>Christopher Alexander was an architect and professor at UC Berkley</p>
+            <p>An architect named Christopher Alexander, while teaching at UC Berkley in 70's, put forth a theory called "The Timeless Way of Building" in which he described a method of design driven not by the FORM of the building, but by the HUMAN INTERACTIONS the building is meant to facilitate. </p>
           </aside>
         </section>
 
         <section  data-state="state--blue" data-background="img/christopher-alexander-books.jpg">
           <aside class="notes">
-            <p>In 1979 he published "The Timeless Way of Building"</p>
-            <p>The Timeless Way of Building describes an architecture theory in which it doesn't take an architect to design a building.</p>
-            <p>But through a common language, anyone can design simply by applying the appropriate solution to the particular design problem.</p>
-            <p>"A Pattern Language" describes each of these solutions in detail.</p>
+            <p>He went on to publish "A Pattern Language", in which he and his colleagues document 253 architectural design patterns observed in some of the most timeless and well designed places throughout the world.</p>
+            <p>These patterns are not limited to buildings themselves. They address problems on a much larger scale. Those related to designing entire regions, cities, neighborhoods-- recursively, just like our layouts-- down to the home, its entry way, built-in furniture and decorations on the wall.</p>
+            <p>Using this pattern language as guide, anyone could design, simply by applying the appropriate solution in the context of their particular design problem.</p>
+          </aside>
+        </section>
+
+        <section data-state="state--blue" data-background="img/seat-spots.jpg" class="slide-canvas">
+<p class="credit"><a href="https://flic.kr/p/ngz4YL">https://flic.kr/p/ngz4YL</a></p>
+          <aside class="notes">
+             <p class="biggie">Alexander's patterns came from observing <strong>places that are alive.</strong></p>
+            <p> In Pattern 241, Seat spots he writes</p>
+            <blockquote>"Choosing good spots for outdoor seats is far more important than building fancy benches. Indeed, if the spot is right, the most simple kind of seat is perfect.
+In cool climates, choose them to face the sun, and to be protected from the wind; in hot climates, put them in shade and open to summer breezes. In both cases, place them to face activities."</blockquote>
+          <p>They didn't just make this pattern up. Him and his student's went out on campus and people watched for days. They took notes on which benches were occupied and which weren't. Which benches people were drawn to and which sat empty.</p>
           </aside>
         </section>
 
@@ -1368,45 +1379,43 @@ $variables[theme_hook_suggestions][] = 'node__[whatever]';
         <section data-state="state--blue" >
           <p class="biggie">Design Patterns are <strong>observed.</strong></p>
           <aside class="notes">
-          </aside>
-        </section>
+            <p>The seat spots pattern didn't come from some blogger declaring "GOOD SEATS have cushions!" in a post titled 'Best Practices in Bench Design.'"  NO! It was developed by observing existing solutions to the <em>I need a place to sit</em> problem.
 
-        <section data-state="state--blue" data-background="img/seat-spots.jpg" class="slide-canvas">
-<p class="credit"><a href="https://flic.kr/p/ngz4YL">https://flic.kr/p/ngz4YL</a></p>
-          <aside class="notes">
-             <p class="biggie">Alexander's patterns came from observing <strong>places that are alive.</strong></p>
-            #241 Seat spots
-            "Choosing good spots for outdoor seats is far more important than building fancy benches. Indeed, if the spot is right, the most simple kind of seat is perfect.
-In cool climates, choose them to face the sun, and to be protected from the wind; in hot climates, put them in shade and open to summer breezes. In both cases, place them to face activities."
+            <p>So as designers and developers, what does that mean for us?</p>
           </aside>
         </section>
 
         <section data-state="state--blue" >
           <p class="biggie">Start looking for <strong>patterns</strong></p>
           <aside class="notes">
+            <p>Try to identify reoccurring problems in your day to day work. Are you solving these problems with a common solution?</p>
           </aside>
         </section>
 
         <section data-state="state--blue" >
           <p class="biggie">Be mindful of <strong>feel good code.</strong></p>
           <aside class="notes">
+            <p>If you come up with a solid solution that just feels bullet proof and can be applied in a bunch of different ways, WRITE IT DOWN.</p>
           </aside>
         </section>
 
         <section data-state="state--blue" >
           <p class="biggie">Make it <strong>Repeatable.</strong></p>
           <aside class="notes">
+            <p>Try to define the core of the solution. "What about this can be abstracted to make it useful in a wider context."
           </aside>
         </section>
 
         <section data-state="state--blue" >
           <p class="biggie"><strong>Share it</strong> with others.</p>
           <aside class="notes">
+            <p>Which is what I'm doing today.</p>
           </aside>
         </section>
 
         <section data-state="state--blue" >
           <p class="biggie">Thank you.</p>
+          <p><a href="https://amsterdam2014.drupal.org/session/layout-design-patterns">https://amsterdam2014.drupal.org/session/layout-design-patterns</a></p>
           <aside class="notes">
           </aside>
         </section>
