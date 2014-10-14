@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="418px" height="575px" viewBox="0 0 418 575" enable-background="new 0 0 418 575" xml:space="preserve">
+<g id="flow" display="none" opacity="0.6">
+	
+		<rect id="block_1_" x="35" y="30" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="348.8" height="232.5"/>
+	
+		<rect id="block" x="35" y="297.5" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	
+		<rect id="block_2_" x="227.5" y="297.5" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	
+		<rect id="block_4_" x="35" y="436.8" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	
+		<rect id="block_3_" x="227.5" y="436.8" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	
+		<rect id="block_6_" x="35" y="297.5" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	
+		<rect id="block_5_" x="227.5" y="297.5" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="157.5" height="105"/>
+	<polygon display="inline" points="218.4,350 204.6,342 204.6,346 184.6,346 184.6,354 204.6,354 204.6,358 	"/>
+	<polygon display="inline" points="218.4,489.2 204.6,481.3 204.6,485.3 184.6,485.3 184.6,493.2 204.6,493.2 204.6,497.2 	"/>
+	<polygon display="inline" points="196,430.3 211.4,426.2 208.6,423.3 222.7,409.2 217.1,403.5 202.9,417.7 200.1,414.9 	"/>
+	<polygon display="inline" points="209.4,287.4 217.4,273.6 213.4,273.6 213.4,253.6 205.5,253.6 205.5,273.6 201.5,273.6 	"/>
+</g>
+<g id="position" opacity="0.8">
+	<g id="block_8_" opacity="0.61">
+		<g>
+			<polyline fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" points="35,90.9 35,84.9 41,84.9 			"/>
+			
+				<line fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="12.4062,12.4062" x1="53.4" y1="84.9" x2="295.3" y2="84.9"/>
+			<polyline fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" points="301.5,84.9 307.5,84.9 307.5,90.9 			
+				"/>
+			
+				<line fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="11.3124,11.3124" x1="307.5" y1="102.2" x2="307.5" y2="254.9"/>
+			<polyline fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" points="307.5,260.6 307.5,266.6 301.5,266.6 
+							"/>
+			
+				<line fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="12.4062,12.4062" x1="289.1" y1="266.6" x2="47.2" y2="266.6"/>
+			<polyline fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" points="41,266.6 35,266.6 35,260.6 			"/>
+			
+				<line fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="11.3124,11.3124" x1="35" y1="249.3" x2="35" y2="96.6"/>
+		</g>
+	</g>
+	
+		<rect id="block_7_" x="111.2" y="34.1" fill="none" stroke="#E5E5E5" stroke-width="3" stroke-miterlimit="10" width="272.5" height="181.7"/>
+	<polygon fill="#E5E5E5" points="88.7,44.8 72.7,44.8 74.7,48.2 57.4,58.3 61.4,65.2 78.7,55.1 80.7,58.6 	"/>
+	<polygon fill="#E5E5E5" points="362,237.1 346.1,237.1 348.1,240.6 330.7,250.6 334.7,257.5 352.1,247.5 354.1,250.9 	"/>
+</g>
+<g id="boxmodel" display="none" opacity="0.6">
+	<g id="block_11_" display="inline" opacity="0.61">
+		<g>
+			<polyline fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" points="96.3,97.3 96.3,91.3 102.3,91.3 			"/>
+			
+				<line fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="12.5931,12.5931" x1="114.9" y1="91.3" x2="310.1" y2="91.3"/>
+			<polyline fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" points="316.4,91.3 322.4,91.3 322.4,97.3 			
+				"/>
+			
+				<line fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="10.8704,10.8704" x1="322.4" y1="108.2" x2="322.4" y2="189.7"/>
+			<polyline fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" points="322.4,195.2 322.4,201.2 316.4,201.2 
+							"/>
+			
+				<line fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="12.5931,12.5931" x1="303.8" y1="201.2" x2="108.6" y2="201.2"/>
+			<polyline fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" points="102.3,201.2 96.3,201.2 96.3,195.2 			
+				"/>
+			
+				<line fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="10.8704,10.8704" x1="96.3" y1="184.3" x2="96.3" y2="102.8"/>
+		</g>
+	</g>
+	
+		<rect id="block_9_" x="65.7" y="60.7" display="inline" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" width="287.4" height="171.2"/>
+	
+		<rect id="block_13_" x="35" y="30" display="inline" opacity="0.61" fill="none" stroke="#333333" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="12" enable-background="new    " width="348.8" height="232.5"/>
+</g>
+</svg>

@@ -500,7 +500,7 @@ body {
   border: 3px solid white;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
-.reveal section .aten-logo {
+.reveal section .logo {
   width: 400px;
   margin-bottom: 2em; }
 .reveal section .profile-header {
@@ -871,18 +871,15 @@ body {
 .reveal section .work-sample {
   width: 230px;
   vertical-align: top; }
-.reveal section .properties-wrapper {
-  padding-top: 30px;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 60px;
-  -moz-column-gap: 60px;
-  column-gap: 60px; }
-  .reveal section .properties-wrapper .properties > li {
-    font-weight: 700;
+.reveal section .properties {
+  margin-left: 0;
+  padding-top: 25px; }
+  .reveal section .properties > li {
+    font-weight: 100;
     margin-bottom: 6px;
     list-style: none; }
+.reveal section .properties-label {
+  font-weight: 700; }
 .reveal section #complex-layouts {
   width: 300px;
   height: 400px;
@@ -1071,6 +1068,17 @@ body {
   right: 0;
   left: 0;
   margin: auto; }
+.reveal section .l--split > .l-primary {
+  float: left;
+  width: 50%; }
+.reveal section .l--split > .l-secondary {
+  float: right;
+  width: 40%;
+  text-align: left; }
+.reveal section .l--split img:first-child {
+  margin-top: 0; }
+.reveal section h2 + .l--split {
+  padding-top: 50px; }
 .reveal section .layout-wrapper {
   max-width: 90%;
   margin-left: auto;
@@ -1213,6 +1221,8 @@ body {
     text-align: center;
     font-size: 1.2rem;
     color: #2d3942; }
+.reveal section .aten-logo {
+  height: 600px; }
 
 #about .ss-twitter {
   margin-left: 50px;
@@ -1239,3 +1249,15 @@ body {
   to {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg); } }
+#hashtag {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  font-size: 21px;
+  letter-spacing: .03em;
+  font-family: Lato, sans-serif;
+  color: #0a4664;
+  opacity: .6;
+  margin: 0; }
+  .state--blue #hashtag, .state--dark #hashtag {
+    color: #f8f8f8; }
