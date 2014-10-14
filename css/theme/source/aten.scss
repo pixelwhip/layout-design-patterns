@@ -759,19 +759,19 @@ $susy: (
 // Properties
 //
 
-.properties-wrapper {
-  padding-top: 30px;
-  column-count: 3;
-  column-gap: 60px;
+.properties {
+  margin-left: 0;
+  padding-top: 25px;
 
-  .properties {
-
-    > li {
-      font-weight: 700;
-      margin-bottom: 6px;
-      list-style: none;
-    }
+  > li {
+    font-weight: 100;
+    margin-bottom: 6px;
+    list-style: none;
   }
+}
+
+.properties-label {
+  font-weight: 700;
 }
 
 //
@@ -1057,8 +1057,33 @@ $susy: (
   margin: auto;
 }
 
+
+.l--split {
+  > .l-primary {
+    float: left;
+    width: 50%;
+  }
+
+  > .l-secondary {
+    float: right;
+    width: 40%;
+    text-align: left;
+  }
+
+  img:first-child {
+    margin-top: 0;
+  }
+}
+
+h2 + .l--split {
+  padding-top: 50px;
+}
+
 @import 'partials/greybox';
 
+.aten-logo {
+  height: 600px;
+}
 
 } // End .reveal .section wrapper
 
@@ -1089,5 +1114,20 @@ $susy: (
     to {
         transform:rotate(-360deg);
     }
+}
+
+#hashtag {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  font-size: 21px;
+  letter-spacing: .03em;
+  font-family: Lato, sans-serif;
+  color: #0a4664;
+  opacity: .6;
+  margin: 0;
+
+  .state--blue &,
+  .state--dark & { color: $white; }
 }
 

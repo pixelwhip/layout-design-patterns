@@ -40,9 +40,9 @@
   </head>
 
   <body>
+    <p id="hashtag">#layoutpatterns</p>
 
     <div class="reveal">
-
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section id="title-slide" data-state="state--blue" >
@@ -54,7 +54,8 @@
         </section>
 
         <section id="about" data-state="state--dark">
-          <img src="img/aten-logo.svg" alt="Aten Logo" class="aten-logo">
+          <a href="http://atendesigngroup.com"><img src="img/aten-logo.svg" alt="Aten Logo" class="logo"></a>
+          <p>aten.io</p>
           <aside class="notes">
             I'm the Lead Front-end Developer at Aten Design Group in Denver, CO.
           </aside>
@@ -79,26 +80,6 @@
           <aside class="notes">
           </aside>
         </section>
-<!--
-        <section  data-state="state--dark">
-          <img src="img/ss-ncwit-home.jpg" alt="" class="work-sample">
-          <img src="img/ss-cpr-home.jpg" alt="" class="work-sample">
-          <img src="img/ss-wri-home.jpg" alt="" class="work-sample">
-
-          <aside class="notes">
-            <p>Our clients typically have a lot of content.</p>
-            <p>Articles, Projects, Blog posts. Reports with related charts, graphs and media.  The content is dynamic and the sites themselves are responsive.
-            <p>Which often leads to some fairly complex layouts</p>
-          </aside>
-        </section> -->
-<!--
-        <section  data-state="state--dark">
-          <img src="img/layout-sketch.png" alt="" />
-          <aside class="notes">
-            <p>I spend a good part of my job solving layout problems</p>
-            <p>...trying to manipulate markup with CSS in order to present information in a readable and understandable way.</p>
-          </aside>
-        </section> -->
 
         <section  data-state="state--blue">
           <h1>Design Patterns</h1>
@@ -115,23 +96,20 @@
             "Common solutions to reoccurring problems within a given context"
           </aside>
         </section>
-<!--
-        <section  data-state="state--blue">
-          <h1>Example</h1>
-
-          <aside class="notes">
-          </aside>
-        </section> -->
 
         <section  data-state="state--blue">
           <p class="biggie">Reoccurring <strong>Problem</strong></p>
-          <h1 class="fragment">I am Hungry</h1>
+          <h1 class="fragment">I get Hangry</h1>
 
           <aside class="notes">
             "Common solutions to reoccurring problems within a given context"
           </aside>
         </section>
 
+        <section data-state="" data-background="img/bg-happy.jpg" class="slide-canvas">
+          <aside class="notes">
+          </aside>
+        </section>
         <section data-state="" data-background="img/bg-hangry.gif" class="slide-canvas">
 
           <aside class="notes">
@@ -148,7 +126,7 @@
           </aside>
         </section>
 
-        <section data-state="" data-background="img/bg-tacos.jpg" class="slide-canvas">
+        <section data-state="" data-background="img/bg-all-the-tacos.jpg" class="slide-canvas">
           <p class="credit"><a href="https://flic.kr/p/9pnN8n">https://flic.kr/p/9pnN8n</a></p>
 
           <aside class="notes">
@@ -201,42 +179,76 @@
         </section>
 
         <section  data-state="state--blue">
-          <h2>CSS Layout Properties</h2>
-          <div class="properties-wrapper">
-            <ul class="properties">
-              <!-- <li><h3>Flow</h3></li> -->
-              <li>display</li>
-              <li>flex</li>
-              <li>float</li>
-              <li>clear</li>
-              <li>overflow</li>
-            </ul>
-            <ul class="properties">
-              <!-- <li><h3>Positioning</h3></li> -->
-              <li>position</li>
-              <li>top</li>
-              <li>right</li>
-              <li>left</li>
-              <li>bottom</li>
-              <li>z-index</li>
-            </ul>
-            <ul class="properties">
-              <!-- <li><h3>Box Model</h3></li> -->
-              <li>box-sizing</li>
-              <li>border-width</li>
-              <li>padding</li>
-              <li>margin</li>
-              <li>width</li>
-              <li>height</li>
-            </ul>
+          <h2>CSS Layout</h2>
+          <div class="l--split clearfix">
+            <div class="l-primary">
+              <img src="img/CSS-boxmodel.svg" alt="" class=""/>
+            </div>
+            <div class="l-secondary">
+              <p class="properties-label">Box Model Properties</p>
+              <ul class="properties">
+                <li>box-sizing</li>
+                <li>height</li>
+                <li>width</li>
+                <li>max-height</li>
+                <li>max-width</li>
+                <li>border-width</li>
+                <li>padding</li>
+                <li>margin</li>
+              </ul>
+            </div>
           </div>
-
+          <aside class="notes">
+            ## Let's define a layout
+          </aside>
+        </section>
+        <section  data-state="state--blue">
+          <h2>CSS Layout</h2>
+          <div class="l--split clearfix">
+            <div class="l-primary">
+              <img src="img/CSS-flow.svg" alt="" class=""/>
+            </div>
+            <div class="l-secondary">
+              <p class="properties-label">Flow Properties</p>
+              <ul class="properties">
+                <li>display</li>
+                <li>float</li>
+                <li>clear</li>
+                <li>overflow</li>
+                <li>flex-*</li>
+                <li>shape-*</li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes">
+            ## Let's define a layout
+          </aside>
+        </section>
+        <section  data-state="state--blue">
+          <h2>CSS Layout</h2>
+          <div class="l--split clearfix">
+            <div class="l-primary">
+              <img src="img/CSS-position.svg" alt="" class=""/>
+            </div>
+            <div class="l-secondary">
+              <p class="properties-label">Position Properties</p>
+              <ul class="properties">
+                <li>position</li>
+                <li>top</li>
+                <li>right</li>
+                <li>bottom</li>
+                <li>left</li>
+                <li>transform</li>
+                <li>z-index</li>
+              </ul>
+            </div>
+          </div>
           <aside class="notes">
             ## Let's define a layout
           </aside>
         </section>
 
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-home.jpg" alt="" />
           <aside class="notes">
             <p>Here's an example of a site we recently worked on.</p>
@@ -250,27 +262,27 @@
           </aside>
         </section>
 
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-home.jpg" alt="" />
           <aside class="notes">
             <p>Here's an example of a site we recently worked on.</p>
           </aside>
         </section>
 
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-home.jpg" alt="" />
           <aside class="notes">
             <p>Complex problems can be broken down into smaller simpler problems</p>
           </aside>
         </section>
 
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-layout-1.jpg" alt="" />
         </section>
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-layout-2.jpg" alt="" />
         </section>
-        <section  data-state="state--dark">
+        <section  data-state="state--dark" class="slide-canvas">
           <img src="img/ss-cpr-layout-3.jpg" alt="" />
         </section>
 
@@ -313,7 +325,7 @@
           </aside>
         </section>
 
-        <section data-state="state--example">
+        <section data-state="state--example" class="slide-canvas">
           <pre class="class-name">.l--constrained</pre>
           <a href="http://createupstate.com/"> <img class="screenshot" src="img/ss-cu-home.jpg" alt=""></a>
           <a href="http://createupstate.com/"> <img class="screenshot" src="img/ss-cu-home-constrained.jpg" alt=""></a>
@@ -321,10 +333,6 @@
           <aside class="notes">
             And making sure elements stay aligned on large screen sizes.
           </aside>
-        </section>
-
-        <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
         </section>
 
         <section data-state="state--pattern">
@@ -336,7 +344,7 @@
           </aside>
         </section>
 
-        <section data-state="state--example">
+        <section data-state="state--example" class="slide-canvas">
           <a href="http://createupstate.com/"> <img class="screenshot spaced" src="img/ss-cu-home-rows.jpg" alt=""></a>
           <a href="http://createupstate.com/"> <img class="screenshot spaced" src="img/ss-cu-mobile.jpg" alt=""></a>
 
@@ -367,10 +375,6 @@
           <aside class="notes">
             Instead, we break the layout down into rows of relevant content so the hierarchy can be preserved at all screen sizes.
           </aside>
-        </section>
-
-        <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
         </section>
 
         <section data-state="state--pattern">
@@ -498,10 +502,6 @@
         </section>
 
         <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
-        </section>
-
-        <section data-state="state--pattern">
           <h1 class="pattern-name">Gutter Pull</h1>
           <p class="pattern-description">Position an item by pulling <br/>it into the gutter established <br/>by its parent container.</p>
           <aside class="notes">
@@ -625,10 +625,6 @@
         </section>
 
         <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
-        </section>
-
-        <section data-state="state--pattern">
           <h1 class="pattern-name">Margin Overflow</h1>
           <p class="pattern-description">Allow an element to overflow its container by applying negative margins to both left and rights sides.</p>
 
@@ -724,10 +720,6 @@
           </aside>
         </section>
 
-        <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
-        </section>
-
         <section data-state="state--pattern" class="slide-canvas">
           <h1 class="pattern-name">Intrinsic Ratios</h1>
           <p class="pattern-description">When the aspect ratio of an element is known, but the target size is not, use padding and absolute positioning to preserve the aspect ratio of an element.</p>
@@ -791,17 +783,49 @@
           </aside>
         </section>
 
-        <section data-state="state--pattern">
-          <aside class="notes"> Transition </aside>
-        </section>
-
-        <section data-state="state--pattern">
-          <h1 class="pattern-name">Grid System</h1>
-          <p class="pattern-description">Divide the screen into a series of vertical columns to facilitate the organization and alignment of components.</p>
+        <section data-state="state--default" data-background="img/bg-grids.png">
 
           <aside class="notes">
             A grid system helps you create visual harmony and order on a screen by keeping elements aligned on the page.
+            Divide the screen into a series of vertical columns to facilitate the organization and alignment of components.
           </aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/villard-diagram.png" alt="Villard Diagram">
+          <aside class="notes">
+            Grids have been used in page layout since the medieval times. Scribes diagrammed their pages to ensure that the text had the same depth and measure from page to page.
+          </aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <a href="http://www.ibiblio.org/expo/vatican.exhibit/exhibit/d-mathematics/Greek_math.html"><img src="img/villard-book.jpg" alt="c. 1458"></a>
+          <aside class="notes">
+            Grids have been used in page layout since the medieval times. Scribes diagrammed their pages to ensure that the text had the same depth and measure from page to page.
+          </aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grid-systems-in-graphic-design.jpg" alt="Josef Muller's Grid Systems">
+          <aside class="notes">"In 1961, Josef Muller published Grid Systems in Graphic design."</aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grids-marber.png" alt="Marber's Penguin Grid">
+          <aside class="notes">"That same year a Polish graphic designer named Romek Marber, conceived a grid layout for Penguin book covers that became one of the most praised and recognized layouts of all time."</aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/marber-red-harvest.jpg" alt="Marber's Penguin Grid">
+          <aside class="notes"></aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grids-marber-games.png" alt="Olly Moss - Video Game Covers">
+          <aside class="notes">A few years ago, Olly Moss did a series of classic video game covers in the style of Penguin books and the Marber Grid.</aside>
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grids-olly-moss.svg" alt="Olly Moss - Dark Knight">
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grids-olly-moss-2.svg" alt="Olly Moss - Dark Knight">
+        </section>
+        <section  data-state="state--default" data-background="">
+          <img src="img/grids-olly-moss-3.svg" alt="Olly Moss - Dark Knight">
         </section>
 
         <section data-state="state--example">
@@ -816,8 +840,6 @@
         <section data-state="state--example">
           <a href="http://www.amazon.com/Ordering-Disorder-Principles-Design-Voices/dp/0321703537"><img src="img/cover-ordering-disorder.jpeg" alt="" class="cover" /></a>
           <a href="http://www.fivesimplesteps.com/products/a-practical-guide-to-designing-for-the-web"><img src="img/cover-designing-for-the-web.png" alt="" class="cover" /></a>
-
-
 
           <aside class="notes">
             I'm not going to dwell on why you should use a grid system.  If you need convincing, I suggest reading Ordering Disorder by Khoi Vin or Designing for the Web by Mark Boulton.
@@ -850,7 +872,14 @@
         </section>
 
         <section data-state="state--example">
-          <img src="img/ss-gutterless-grid.png" alt="" class="screenshot" />
+          <img src="img/ss-ssm.png" alt="" class="screenshot" />
+
+          <aside class="notes">
+
+          </aside>
+        </section>
+        <section data-state="state--example">
+          <img src="img/ss-ssm-grids.png" alt="" class="screenshot" />
 
           <aside class="notes">
 
@@ -979,8 +1008,8 @@
         </section>
 
         <section data-state="state--pattern">
-          <h1 class="pattern-name">Float Layout</h1>
-          <p class="pattern-description">Create columns by floating a series of elements with defined widths.</p>
+          <h1 class="pattern-name">Flow Layout</h1>
+          <p class="pattern-description">Create columns by <em>inlining</em> a series of elements with defined widths, allowing elements to wrap as needed.</p>
 
           <aside class="notes">
 
@@ -994,7 +1023,7 @@
             <span id="float--padded" class="fragment" data-fragment-index="4"></span>
             <span id="float--2up" class="fragment" data-fragment-index="5"></span>
 
-            <div id="float--layout" class="greybox greybox-container clearfix" data-label="Float">
+            <div id="float--layout" class="greybox greybox-container clearfix" data-label="Flow">
               <div class="l-primary greybox-region grid-item" data-label=".l-primary"></div>
               <div class="l-secondary greybox-region grid-item" data-label=".l-secondary"></div>
               <div class="l-tertiary greybox-region grid-item" data-label=".l-tertiary"></div>
@@ -1045,6 +1074,13 @@
             </code>
           </pre>
           <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-state="state--defualt">
+          <a href="http://www.wri.org/our-work/topics/water"><img src="img/ss-flow.png" alt="Flow Layout" class="screenshot"></a>
+          <aside class="notes">
+
           </aside>
         </section>
 
@@ -1155,142 +1191,17 @@
           </aside>
         </section>
 
-        <section data-state="state--blue">
-          <h1>Drupal Layouts</h1>
+        <section data-state="state--defualt">
+          <a href="http://www.wri.org/our-work/topics/water"><img src="img/ss-flow-vs-isolate.png" alt="Flow vs Isolate Layout" class="screenshot"></a>
           <aside class="notes">
-            You actually have a lot of useful tools at your disposal.
-            <ul>
-              <li>Nodes</li>
-              <li>Views</li>
-              <li>Blocks</li>
-              <li>Layout</li>
-            </ul>
-          </aside>
-        </section>
-        <section data-state="state--blue">
-          <h1>Template Files</h1>
 
-          <pre class="file-list">
-            page.tpl.php
-
-            node.tpl.php
-
-            user-profile.tpl.php
-          </pre>
-          </ul>
-          <aside class="notes">
           </aside>
         </section>
 
-
-        <section data-state="state--blue">
-          <h4>Learn to love</h4>
-          <h2>Theme Hook Suggestions</h2>
-          <pre><code class="php">
-// Implement within hook_preprocess_page(&$variables).
-$variables[theme_hook_suggestions][] = 'page__[whatever]';
-
-// Implement within hook_preprocess_node(&$variables).
-$variables[theme_hook_suggestions][] = 'node__[whatever]';
-          </code></pre>
+        <section data-state="state--defualt">
+          <a href="http://www.wri.org/our-work/topics/water"><img src="img/ss-flow-vs-isolate-2.png" alt="Flow vs Isolate Layout" class="screenshot"></a>
           <aside class="notes">
-          </aside>
-        </section>
-        <section data-state="state--blue" >
-          <h1>cTools Layouts</h1>
-          <ul class="module-list">
-            <li>Panels</li>
-            <li>Display Suite</li>
-            <li>Omega 4.x</li>
-          </ul>
-          <aside class="notes">
-          </aside>
-        </section>
-        <section data-state="state--blue">
-          <h3>Create your own Layouts</h3>
-          <pre class="file-list">
-            sidebar_after.inc
 
-            sidebar_after.png
-
-            sidebar_after.css
-
-            sidebar_after.tpl.php
-          </pre>
-          <aside class="notes">
-          </aside>
-        </section>
-
-        <section data-state="state--blue">
-          <pre class="file-list">
-            sidebar_after.inc
-          </pre>
-          <pre><code class="php">
-  // Plugin definition
-  $plugin = array(
-    'title' => t('Sidebar After'),
-    'category' => t('Custom'),
-    'icon' => 'sidebar_after.png',
-    'theme' => 'sidebar_after',
-    'css' => 'sidebar_after.css',
-    'regions' => array(
-      'main' => t('Main'),
-      'sidebar' => t('Sidebar'),
-    ),
-  );
-          </code></pre>
-          <aside class="notes">
-          </aside>
-        </section>
-
-        <section data-state="state--blue">
-          <pre class="file-list">
-            sidebar_after.png
-          </pre>
-          <img src="img/sidebar_after.png" alt="">
-          <aside class="notes">
-          </aside>
-        </section>
-
-        <section data-state="state--blue">
-          <pre class="file-list">
-            sidebar_after.tpl.php
-          </pre>
-          <pre><code class="php">
-  <div class="l--sidebar-after">
-    <?php if ($content['main']): ?>
-      <div class="l-main">
-        <?php print $content['main']; ?>
-      </div>
-    <?php endif; ?>
-    <?php if ($content['sidebar']): ?>
-      <div class="l-sidebar">
-        <?php print $content['sidebar']; ?>
-      </div>
-    <?php endif; ?>
-  </div>
-          </code></pre>
-          <small>* Syntax highlighting is jacked and interpreting &lt;? as a comment :(</small>
-          <aside class="notes">
-          </aside>
-        </section>
-
-        <section data-state="state--blue">
-          <pre class="file-list">
-            sidebar_after.css
-          </pre>
-          <pre><code class="css">
-  .l--sidebar-after > .l-sidebar {
-    float: left;
-    width: 33.333%;
-  }
-
-  .l--sidebar-after > .l-main {
-    float: left;
-    width: 66.666%;
-  }
-          </code></pre>
-          <aside class="notes">
           </aside>
         </section>
 
@@ -1354,8 +1265,28 @@ $variables[theme_hook_suggestions][] = 'node__[whatever]';
         <section  data-state="state--blue" data-background="img/christopher-alexander-books.jpg">
           <aside class="notes">
             <p>He went on to publish "A Pattern Language", in which he and his colleagues document 253 architectural design patterns observed in some of the most timeless and well designed places throughout the world.</p>
+          </aside>
+        </section>
+        <section  data-state="state--blue" data-background="img/pl-regions.png">
+          <aside class="notes">
             <p>These patterns are not limited to buildings themselves. They address problems on a much larger scale. Those related to designing entire regions, cities, neighborhoods-- recursively, just like our layouts-- down to the home, its entry way, built-in furniture and decorations on the wall.</p>
             <p>Using this pattern language as guide, anyone could design, simply by applying the appropriate solution in the context of their particular design problem.</p>
+          </aside>
+        </section>
+        <section  data-state="state--blue" data-background="img/pl-neighborhoods.png">
+          <aside class="notes">
+          </aside>
+        </section>
+        <section  data-state="state--blue" data-background="img/pl-building.jpg">
+          <aside class="notes">
+          </aside>
+        </section>
+        <section  data-state="state--blue" data-background="img/pl-door.jpg">
+          <aside class="notes">
+          </aside>
+        </section>
+        <section  data-state="state--blue" data-background="img/pl-walls.jpg">
+          <aside class="notes">
           </aside>
         </section>
 
@@ -1415,7 +1346,9 @@ In cool climates, choose them to face the sun, and to be protected from the wind
 
         <section data-state="state--blue" >
           <p class="biggie">Thank you.</p>
-          <p><a href="https://amsterdam2014.drupal.org/session/layout-design-patterns">https://amsterdam2014.drupal.org/session/layout-design-patterns</a></p>
+          <p><br/>Text: <a href="(504) 229-6828">(504) 229-6828</a></p>
+          <p>#layoutpatterns [1-5] [Comment]</p>
+
           <aside class="notes">
           </aside>
         </section>
@@ -1432,7 +1365,7 @@ In cool climates, choose them to face the sun, and to be protected from the wind
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        controls: true,
+        controls: false,
         progress: true,
         history: true,
         center: true,
