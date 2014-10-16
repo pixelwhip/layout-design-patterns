@@ -8,6 +8,10 @@
 				"margin"
 			],
 			[
+				"paddin",
+				"padding-top"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -54,10 +58,6 @@
 			[
 				"gr",
 				"greybox"
-			],
-			[
-				"paddin",
-				"padding"
 			],
 			[
 				"marg",
@@ -523,15 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 56590,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/theme/source/aten.scss",
-			"settings":
-			{
-				"buffer_size": 18089,
+				"buffer_size": 58427,
 				"line_ending": "Unix"
 			}
 		},
@@ -550,14 +542,61 @@
 				"buffer_size": 1465,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "img/CSS-flow.svg",
+			"settings":
+			{
+				"buffer_size": 5319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * Solarized Light theme for reveal.js.\n * Author: Achim Staebler\n */\n\n\n// Default mixins and settings -----------------\n@import \"../template/mixins\";\n@import \"../template/settings\";\n@import 'susy';\n\n// ---------------------------------------------\n\n// Include theme-specific fonts\n@font-face {\n	font-family: 'League Gothic';\n	src: url('../../lib/font/league_gothic-webfont.eot');\n	src: url('../../lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),\n		 url('../../lib/font/league_gothic-webfont.woff') format('woff'),\n		 url('../../lib/font/league_gothic-webfont.ttf') format('truetype'),\n		 url('../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');\n\n	font-weight: normal;\n	font-style: normal;\n}\n\n@font-face {\n  font-family: 'BLOKK';\n  src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot');\n  src: url('../../lib/font/blokk/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'),\n       url('../../lib/font/blokk/BLOKKNeue-Regular.woff') format('woff'),\n       url('../../lib/font/blokk/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n\n@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);\n\n@mixin guides($height: 1.25em) {\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n  padding-top: $height;\n  padding-bottom: $height;\n}\n\n/**\n * Solarized colors by Ethan Schoonover\n */\nhtml * {\n	color-profile: sRGB;\n	rendering-intent: auto;\n}\n\n// Solarized colors\n$base03:    #002b36;\n$base02:    #073642;\n$base01:    #586e75;\n$base00:    #657b83;\n$base0:     #839496;\n$base1:     #93a1a1;\n$base2:     #eee8d5;\n$base3:     #fdf6e3;\n$red:       #dc322f;\n$magenta:   #d33682;\n$violet:    #6c71c4;\n$cyan:      #2aa198;\n$green:     #859900;\n\n// Aten Colors\n$black:         #222222;\n$gray-dark:     #404042;\n$gray:          #999999;\n$gray-white:    #DDC1E8;\n$white:         #f8f8f8;\n$yellow:        #fcc318;\n$red:           #cc0000;\n$blue:          #006699;\n$blue-dark:    #004466;\n$blue-white:   #ccebf5;\n$orange:        #f98700;\n$orange--dark:  #f64b00;\n\n// Blueprint color scheme\n$black:         #222222;\n$gray-dark:     #2D3942;\n$gray:          #999999;\n$gray-white:    #DDC1E8;\n$white:         #f8f8f8;\n$yellow:        #fcc318;\n$red:           #cc0000;\n$blue:          #0D6B9C;\n$blue-light:    #598BA5;\n$blue-dark:     #0A4664;\n$blue-white:    #ccebf5;\n$orange:        #f98700;\n$orange--dark:  #f64b00;\n\n\n// Override theme settings (see ../template/settings.scss)\n$mainColor: $gray-dark;\n$headingColor: $blue-dark;\n$headingTextShadow: none;\n$backgroundColor: $white;\n$linkColor: $orange;\n$linkColorHover: lighten( $linkColor, 20% );\n$selectionBackgroundColor: $magenta;\n\n// Background generator\n@mixin bodyBackground() {\n	@include radial-gradient( rgba(lighten($gray, 30%) ,1), rgba($backgroundColor, 1) );\n}\n\n// Theme template ------------------------------\n@import \"../template/theme\";\n// ---------------------------------------------\n\n//\n// States\n//\n\n// Blue\n  $mainColor: $white;\n  $headingColor: $white;\n  $headingTextShadow: none;\n  $backgroundColor: $gray-dark;\n  $linkColor: $yellow;\n  $linkColorHover: lighten( $linkColor, 20% );\n  $selectionBackgroundColor: $magenta;\n\n.state--blue {\n  // Override theme settings (see ../template/settings.scss)\n\n\n  // Background generator\n  @mixin bodyBackground() {\n    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 20%),1) );\n  }\n\n  @import \"../template/theme\";\n}\n\n// Dark\n  $mainColor: $white;\n  $headingColor: $white;\n  $headingTextShadow: none;\n  $backgroundColor: $gray-dark;\n  $linkColor: $yellow;\n  $linkColorHover: lighten( $linkColor, 20% );\n  $selectionBackgroundColor: $magenta;\n\n.state--dark {\n  // Override theme settings (see ../template/settings.scss)\n\n  // Background generator\n  @mixin bodyBackground() {\n    @include radial-gradient( rgba($backgroundColor,1), rgba(lighten($backgroundColor, 10%),1) );\n  }\n\n  @import \"../template/theme\";\n}\n\n.state--overlay {\n  .slide-background {\n    background-color: $blue-light;\n    background-blend-mode: multiply;\n  }\n}\n\n.state--luminosity {\n  @import \"../template/theme\";\n\n  .slide-background {\n    background-color: $blue-light;\n    background-blend-mode: luminosity;\n  }\n}\n\n// wrap everything in .reveal section to overcome specificity\n.reveal .slide-canvas {\n  height: 95%;\n\n  h2 {\n    font-size: 96px;\n  }\n\n  .align-bottom {\n    position: absolute;\n    bottom: 0;\n    margin: auto;\n    left: 0;\n    right: 0;\n  }\n}\n\n//\n// Start wrapping everything to compensate for the specificity of reveal.\n//\n\n.reveal section {\n\n p {\n  font-weight: 300;\n }\n\n .credit {\n  position: absolute;\n  font-size: .5em;\n  bottom: 0;\n  left: 0;\n\n  > a {\n    color: rgba($white, .06);\n  }\n}\n\ncode {\n  font-family: \"Andale Mono\", monospace;\n}\n\n.biggie {\n  font-size: 60px;\n}\n\n.link--twitter {\n  margin-left: 2em;\n\n  > i {\n    font-size: 24px;\n    margin-right: .5em;\n  }\n}\n\npre {\n  box-shadow: none;\n}\n\n//\n// Images\n//\n.screenshot {\n  border: 3px solid white;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);\n}\n\n//\n// Aten Logo\n//\n\n.logo {\n  width: 400px;\n  margin-bottom: 2em;\n}\n\n//\n// Profile\n//\n\n.profile-header {\n    float: left;\n    width: 460px;\n    padding-top: 200px;\n}\n\n.profile-name {\n    font-size: 56px;\n    color: white;\n    text-shadow: 0 0 10px rgba($black, .8);\n}\n\n.profile-date {\n    color: white;\n}\n\n//\n// Patterns\n//\n\n.pattern-name {\n  text-align: left;\n  font-family: \"Lato\", \"League Gothic\", sans-serif;\n  font-size: 72px;\n  line-height: 90px;\n  font-weight: 900;\n  text-transform: none;\n}\n\n.pattern-description {\n  text-align: left;\n  font-size: 50px;\n  max-width: 16em;\n}\n\n//\n// Article\n//\n\n.article-wrapper {\n  margin-right: auto;\n  margin-left: auto;\n  font-size: 18px;\n  max-width: 33em;\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n  padding-top: 1.5em;\n  padding-bottom: 1.5em;\n}\n\n.article {\n  text-align: left;\n}\n\n.article-paragraph {\n  font-size: 18px;\n  margin-bottom: 24px;\n  line-height: 1.4em;\n  font-weight: 400;\n}\n\n.quote,\n.quote-author {\n  box-shadow: none;\n  color: $blue;\n}\n\n.quote-author {\n  text-align: right;\n  margin-top: 1.2em;\n}\n\n.article-pullquote {\n  font-size: 22px;\n  line-height: 1.2em;\n  font-style: normal;\n  margin-left: 0;\n  margin-right: 0;\n  margin-top: .6em;\n  margin-bottom: 24px;\n  width: 100%;\n  font-weight: 700;\n  padding: .8em 0;\n  border-top: 3px solid $blue;\n  border-bottom: 3px solid $blue;\n  float: left;\n  transition: all 1s ease;\n  letter-spacing: .01em;\n}\n\n#gutter-width.visible ~ .article-wrapper .article-pullquote {\n  width: 14em;\n  margin-right: 1.4em;\n}\n\n#gutter-pulled.visible ~ .article-wrapper .article-pullquote {\n  margin-left: -5.2em;\n}\n\n//\n// Constrained\n//\n\n.article-wrapper {\n  transition: all 1s ease;\n}\n\n#constrained--before ~ .article-wrapper {\n  max-width: 60em;\n}\n\n#constrained--after.visible ~ .article-wrapper {\n  max-width: 33em;\n}\n\n.spaced {\n  margin-left: 30px;\n  margin-right: 30px;\n}\n\n//\n// Float\n//\n\n#float--layout {\n  .grid-item {\n    transition: all 1s ease;\n    box-sizing: border-box;\n    width: 100%;\n  }\n}\n\n#float--3up.visible ~ #float--layout > .grid-item {\n  width: 33.333%;\n  margin-left: 0;\n  margin-right: 0;\n}\n\n#float--floated.visible ~ #float--layout > .grid-item {\n  float: left;\n}\n\n#float--padded.visible ~ #float--layout > .grid-item {\n  padding-left: 30px;\n  padding-right: 30px;\n  box-shadow: 30px 0 0 0 rgba($black, .2) inset, -30px 0 0 0 rgba($black, .2) inset;\n}\n\n#float--2up.visible ~ #float--layout > .grid-item {\n  width: 50%;\n}\n\n//\n// Isolate\n//\n\n#isolate--layout {\n  .grid-item {\n    transition: all 1s ease;\n    box-sizing: border-box;\n    width: 33.333%;\n    margin-left: 0;\n    margin-right: 0;\n    float: left;\n    padding-left: 30px;\n    padding-right: 30px;\n    box-shadow: 30px 0 0 0 rgba($black, .2) inset, -30px 0 0 0 rgba($black, .2) inset;\n  }\n}\n\n$susy: (\n  columns: 12,  // The number of columns in your grid\n  gutters: 0, // The size of a gutter in relation to a single column\n  output: isolate,\n);\n\n#isolate--primary.visible ~ #isolate--layout {\n  > .l-primary   { @include span(4 at 1); }\n  > .l-secondary { @include span(4 at 1); }\n  > .l-tertiary  { @include span(4 at 1); }\n}\n\n#isolate--secondary.visible ~ #isolate--layout {\n  > .l-primary   { @include span(4 at 9); }\n  > .l-secondary { @include span(4 at 1); }\n  > .l-tertiary  { @include span(4 at 1); }\n}\n\n#isolate--tertiary.visible ~ #isolate--layout {\n  > .l-primary   { @include span(5 at 8); }\n  > .l-secondary { @include span(3 at 4); }\n  > .l-tertiary  { @include span(3 at 1); }\n}\n\n#isolate--rows.visible ~ #isolate--layout {\n  > .l-primary   { @include span(7 at 1); }\n  > .l-secondary {\n    @include span(5 at 1 of rtl);\n    min-height: 17em;\n  }\n  > .l-tertiary  {\n    @include span(7 at 1);\n    clear: left;\n  }\n}\n\n//\n// File list\n//\n\n.file-list {\n  font-size: 1em;\n}\n\n//\n// Module list\n//\n\n.module-list {\n  margin: 1em auto;\n\n  li {\n    display: inline-block;\n    margin-left: 1em;\n    margin-right: 1em;\n  }\n}\n\n.class-name {\n  font-size: 1em;\n  text-align: center !important;\n}\n\n//\n// Book\n//\n\n.book-wrapper {\n  margin-right: auto;\n  margin-left: auto;\n  font-size: 18px;\n  max-width: 48em;\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n  padding-top: 2.5em;\n  padding-bottom: 2.5em;\n  text-align: left;\n  transition: all 1.5s ease;\n}\n\n.book--teaser {\n  transition: all 1.5s ease;\n}\n\n.book-cover {\n  text-align: center;\n  width: 100%;\n  float: left;\n  transition: all 1s ease;\n  margin-bottom: 12px;\n}\n\n.book-image {\n  box-shadow: 0 0 6px rgba($black, .4);\n  margin: 0;\n}\n\n.book-title {\n  font-family: \"Lato\", \"League Gothic\", sans-serif;\n  text-transform: none;\n  font-weight: 700;\n  margin: 0 0 6px;\n}\n\n.book-authors {\n  line-height: 27px;\n  margin-bottom: 12px;\n}\n\n#book-padding.visible ~ .book-wrapper .book--teaser {\n  padding-left: 180px;\n\n  box-shadow: 180px 0 0 0 rgba($blue, .2) inset;\n}\n\n#book-width.visible ~ .book-wrapper .book-cover {\n  width: 140px;\n}\n\n#book-pulled.visible ~ .book-wrapper .book--teaser {\n  box-shadow: 180px 0 0 0 rgba($blue, 0) inset;\n}\n\n#book-pulled.visible ~ .book-wrapper .book-cover {\n  margin-left: -180px;\n}\n\n#book-fluid.visible ~ .book-wrapper {\n  max-width: 32em;\n}\n\n//\n// Block Title\n//\n\n.block-wrapper {\n  margin-right: auto;\n  margin-left: auto;\n  font-size: 18px;\n  max-width: 32em;\n  border-left: 1px solid #ccc;\n  border-right: 1px solid #ccc;\n  padding-top: 2.5em;\n  padding-bottom: 2.5em;\n  text-align: left;\n  transition: all 1.5s ease;\n}\n\n.block-title {\n  font-family: \"Lato\", \"League Gothic\", sans-serif;\n  background-color: $blue;\n  color: white;\n  text-transform: none;\n  font-size: 36px;\n  padding: 18px 24px;\n  transition: all 1s ease;\n  margin-bottom: 0;\n  position: relative;\n\n  &:before,\n  &:after {\n    content: \" \";\n    display: block;\n    border-top: 18px #333 solid;\n    position: absolute;\n    top: 100%;\n    height: 0;\n    width: 0;\n  }\n\n  &:before {\n    left: 0;\n    border-left: 24px transparent solid;\n  }\n  &:after {\n    right: 0;\n    border-right: 24px transparent solid;\n  }\n}\n\n.block-content {\n  padding: 24px;\n  position: relative;\n  background-image: linear-gradient($white 24px, rgba($white, 0));\n}\n\n.block-paragraph {\n  font-size: 21px;\n}\n\n#block-overflow.visible ~ .block-wrapper .block-title {\n  margin: 0 -24px;\n}\n\n//\n// Ratios\n//\n\n.ratio-wrapper {\n  @include guides;\n  width: 640px;\n  margin-left: auto;\n  margin-right: auto;\n  transition: all 1s ease;\n}\n\n.video-container {\n  border-top: 1px solid #999;\n  border-: 1px solid #999;\n  background-color: rgba($black, .2);\n  transition: all 1s ease;\n  position: relative;\n\n  > iframe {\n    position: relative;\n    transition: all 1s ease;\n    max-width: 100%;\n    max-height: 100%;\n    transition: all 1s ease;\n  }\n}\n\n#ratio-incorrect.visible ~ .ratio-wrapper {\n  width: 320px;\n}\n\n#ratio-padding.visible ~ .ratio-wrapper .video-container {\n  padding-top: 65.25%;\n  height: 360px;\n\n  > iframe {\n    position: absolute;\n    left: 0;\n    bottom: 0;\n  }\n}\n\n#ratio-position.visible ~ .ratio-wrapper .video-container {\n  height: 0;\n\n  > iframe {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n  }\n}\n\n#ratio-correct.visible ~ .ratio-wrapper {\n  width: 640px;\n}\n\n#ratio-correct-2.visible ~ .ratio-wrapper {\n  width: 320px;\n}\n\n//\n// Cover\n//\n\n.cover {\n  max-height: 450px;\n}\n\n\n//\n// Grid\n//\n.clearfix {\n  &:before,\n  &:after {\n    content: \" \"; /* 1 */\n    display: table; /* 2 */\n  }\n\n  &:after {\n    clear: both;\n  }\n}\n\n.layout-wrapper {\n  border-left: 1px solid #999;\n  border-right: 1px solid #999;\n  text-align: left;\n}\n\n.grid--3-column {\n  margin-right: 0;\n  margin-left: 0;\n  font-size: 18px;\n  transition: margin 1s ease;\n\n  > .grid-item {\n    width: 33.333%;\n    padding: 3.5em 30px;\n    float: left;\n    box-sizing: border-box;\n    border-right: 1px solid #999;\n    line-height: 24px;\n\n    &:last-child {\n      border-right: none;\n    }\n\n    > .greybox-region {\n      margin-left: -30px;\n      margin-right: -30px;\n      box-shadow: 30px 0 0 0 rgba($blue, .2) inset, -30px 0 0 0 rgba($blue, .2) inset;\n      padding: 0 30px;\n      background-color: rgba($black, 0);\n      min-height: 13em;\n      border-left: none;\n      border-right: none;\n    }\n  }\n}\n\n#overflow-3-column--full.visible ~ .grid--3-column {\n  margin-left: -30px;\n  margin-right: -30px;\n}\n\n//\n// Work Samples\n//\n\n.work-sample {\n  width: 230px;\n  vertical-align: top;\n}\n\n//\n// Properties\n//\n\n.properties {\n  margin-left: 0;\n  padding-top: 25px;\n\n  > li {\n    font-weight: 100;\n    margin-bottom: 6px;\n    list-style: none;\n  }\n}\n\n.properties-label {\n  font-weight: 700;\n}\n\n//\n// Anatomy of a Drupal page\n//\n\n#complex-layouts {\n  width: 300px;\n  height: 400px;\n  margin: auto;\n  opacity: .4;\n\n  > svg {\n    width: 100%;\n  }\n}\n\n//\n// Anatomy of a Drupal page\n//\n\n#layout-node-page {\n	width: 300px;\n	height: 400px;\n	margin: auto;\n  opacity: .4;\n\n	&.visible {\n		transform: translateX(-50%);\n	}\n\n	&.current-fragment {\n		transform: none;\n	}\n}\n\n.layout-list {\n	position: absolute;\n	top: 4em;\n	left: 58%;\n\n	.fragment {\n		list-style: none;\n		margin-bottom: 1em;\n\n		&.visible {\n			opacity: .3 !important;\n		}\n\n		&.current-fragment {\n			opacity: 1 !important;\n		}\n	}\n}\n\n.layout-title {\n  text-align: left;\n  margin-left: 50%;\n}\n\n.layout-img {\n  position: absolute;\n  width: 400px;\n  opacity: .4;\n  left: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto !important;\n  max-height: none;\n}\n\n//\n// View Modes\n//\n\n.view-mode--full {\n  position: absolute;\n  top: 3em;\n  right: 0;\n  width: 60%;\n}\n\n.view-mode--teaser {\n  position: absolute;\n  left: 0;\n  width: 60%;\n  bottom: 10%;\n}\n\n.view-mode--listing {\n  position: absolute;\n  width: 25%;\n  top: 20%;\n  left: 5%;\n}\n\n//\n// Acronyms\n//\n\n.acronym > strong {\n  font-weight: inherit;\n  color: darken($red, 20%);\n}\n\n.background-text {\n  position: absolute;\n  display: block;\n  font-size: 20em !important;\n  line-height: .66em;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  margin: auto;\n  vertical-align: bottom;\n  opacity: .1;\n}\n\n.title-left {\n  margin-left: 0;\n  width: 38%;\n}\n\n.screenshot--regions {\n  position: absolute;\n  max-height: none;\n  max-width: none;\n  height: 42em;\n  top: -8em;\n  left: 38%;\n}\n\n//\n// Layouts\n//\n\n#layouts-example {\n  width: 420px;\n  height: 640px;\n  margin: auto;\n  opacity: .8;\n\n  > svg {\n    max-width: 100%;\n    mix-blend-mode: multiply;\n  }\n}\n\n//\n// Circle of Life\n//\n\n.circle {\n  position: absolute;\n  text-shadow:\n    $yellow 0 0 20px,\n    $yellow 0 0 20px,\n    $yellow 0 0 20px;\n}\n\n.circle-drupal {\n  top: 5%;\n  width: 100%;\n  left: auto;\n  right: auto;\n  text-align: center;\n}\n\n.circle-html {\n  bottom: 10%;\n  left: 10%;\n  width: 33%;\n}\n\n.circle-css {\n  bottom: 10%;\n  right: 10%;\n  width: 33%;\n}\n\n.circle-arrows {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  display: block;\n  margin: auto;\n  -webkit-animation-name: spin;\n    -webkit-animation-duration: 12000ms;\n    -webkit-animation-iteration-count: infinite;\n    -webkit-animation-timing-function: linear;\n    -moz-animation-name: spin;\n    -moz-animation-duration: 12000ms;\n    -moz-animation-iteration-count: infinite;\n    -moz-animation-timing-function: linear;\n    -ms-animation-name: spin;\n    -ms-animation-duration: 12000ms;\n    -ms-animation-iteration-count: infinite;\n    -ms-animation-timing-function: linear;\n\n    animation-name: spin;\n    animation-duration: 12000ms;\n    animation-iteration-count: infinite;\n    animation-timing-function: linear;\n}\n\n.theme-components {\n  vertical-align: middle;\n}\n\n.theme-component {\n  display: inline-block;\n}\n\n.theme-component-symbol {\n  font-size: .825em;\n  &:before {\n    content: \"\";\n    display: block\n  }\n}\n\n.theme-component-separator {\n  display: inline-block;\n  color: white;\n  margin-left: 20px;\n  margin-right: 20px;\n  vertical-align: 20px;\n  font-weight: 700;\n  font-size: 1.4em;\n}\n\n.block-class-list {\n  margin: 0;\n  padding: 0;\n  vertical-align: top;\n}\n\n.block-class-item {\n  display: inline-block;\n  width: 24%;\n  list-style: none;\n\n  > img {\n    max-height: 200px;\n  }\n}\n\n.breakpoint-list {\n  margin: 0;\n  padding: 0;\n  vertical-align: top;\n  position: absolute;\n  width: 100%;\n  top: 4em;\n  left: 0;\n}\n\n.breakpoint-item {\n  display: inline-block;\n  width: 18%;\n  list-style: none;\n  vertical-align: top;\n  margin-right: -.3em;\n\n  > code {\n    font-size: .5em;\n  }\n}\n\n.block-class-code {\n  display: block;\n  font-size: .5em;\n}\n\n.screenshot-overlay {\n  position: absolute;\n  top: 0;\n  right: 0;\n  left: 0;\n  margin: auto;\n}\n\n\n.l--split {\n  > .l-primary {\n    float: left;\n    width: 50%;\n  }\n\n  > .l-secondary {\n    float: right;\n    width: 40%;\n    text-align: left;\n  }\n\n  img:first-child {\n    margin-top: 0;\n  }\n}\n\nh2 + .l--split {\n  padding-top: 50px;\n}\n\n@import 'partials/greybox';\n\n.aten-logo {\n  height: 600px;\n}\n\n} // End .reveal .section wrapper\n\n#about {\n  .ss-twitter {\n    margin-left: 50px;\n    margin-right: 12px;\n    font-size: 24px;\n  }\n}\n\n@-ms-keyframes spin {\n    from { -ms-transform: rotate(0deg); }\n    to { -ms-transform: rotate(-360deg); }\n}\n@-moz-keyframes spin {\n    from { -moz-transform: rotate(0deg); }\n    to { -moz-transform: rotate(-360deg); }\n}\n@-webkit-keyframes spin {\n    from { -webkit-transform: rotate(0deg); }\n    to { -webkit-transform: rotate(-360deg); }\n}\n@keyframes spin {\n    from {\n        transform:rotate(0deg);\n    }\n    to {\n        transform:rotate(-360deg);\n    }\n}\n\n#hashtag {\n  position: fixed;\n  top: 1em;\n  right: 1em;\n  font-size: 21px;\n  letter-spacing: .03em;\n  font-family: Lato, sans-serif;\n  color: #0a4664;\n  opacity: .6;\n  margin: 0;\n\n  .state--blue &,\n  .state--dark & { color: $white; }\n}\n\n",
+			"file": "css/theme/source/aten.scss",
+			"file_size": 18571,
+			"file_write_time": 1413284779000000,
+			"settings":
+			{
+				"buffer_size": 18571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/pixelwhip/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/pixelwhip/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 3011,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 371.0,
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"blam",
 				"Git: Blame"
@@ -568,14 +607,6 @@
 			],
 			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -668,6 +699,7 @@
 	},
 	"file_history":
 	[
+		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/source/aten.scss",
 		"/Users/pixelwhip/Presentations/layout_design_patterns/README.md",
 		"/Users/pixelwhip/Presentations/layout_design_patterns/css/theme/source/partials/_greybox.scss",
 		"/Users/pixelwhip/Presentations/layout_design_patterns/img/ss-cpr-layout.svg",
@@ -794,8 +826,7 @@
 		"/Users/pixelwhip/Sites/wri-main.loc/sites/all/themes/wri/include/block.inc",
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/components/_article--figure-teaser.scss",
 		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/templates/node/node--teaser-figure--event.tpl.php",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_triangle.scss",
-		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/layout/_3-column.scss"
+		"/Users/pixelwhip/Sites/mra/public_html/sites/all/themes/mra/sass/utilities/_triangle.scss"
 	],
 	"find":
 	{
@@ -941,6 +972,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"indent",
+			"match",
+			"img",
+			"transition",
+			"hangry",
+			"reveal",
+			"end",
+			"aten-logo",
+			"grid",
+			"grids",
+			"prop",
+			"img",
+			"example",
+			"alexander",
 			"constrained",
 			"primary",
 			"gh",
@@ -1054,21 +1099,7 @@
 			"figcaption",
 			"backgrou",
 			"fluidbox-ghost",
-			"fluid-ghost",
-			"init_flexsl",
-			"990",
-			"init_flex",
-			"flexslider",
-			"gallery",
-			"slide-ficure-caption",
-			"slide-caption",
-			"gallery",
-			"flexsl",
-			"add_picker_close_button",
-			"cpr_playlist.add_picker_close_button",
-			"defaul",
-			"onRender",
-			"pickat"
+			"fluid-ghost"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1150,7 +1181,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1158,15 +1189,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 56590,
+						"buffer_size": 58427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16280,
-								16650
+								27040,
+								27040
 							]
 						],
 						"settings":
@@ -1266,130 +1297,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9032.0,
+						"translation.y": 35660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/theme/source/aten.scss",
-					"settings":
-					{
-						"buffer_size": 18089,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12167,
-								12167
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 14289.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "css/theme/source/partials/_layouts.scss",
 					"settings":
 					{
@@ -1506,7 +1420,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "js/deck.js",
 					"settings":
 					{
@@ -1621,6 +1535,475 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "img/CSS-flow.svg",
+					"settings":
+					{
+						"buffer_size": 5319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/theme/source/aten.scss",
+					"settings":
+					{
+						"buffer_size": 18571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 597.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/pixelwhip/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3651,
+								3567
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2113.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/pixelwhip/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 3011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1818,
+								1818
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2013.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1670,6 +2053,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"aten.",
+				"css/theme/source/aten.scss"
+			],
 			[
 				"grey",
 				"css/theme/source/partials/_greybox.scss"
